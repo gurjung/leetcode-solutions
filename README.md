@@ -51,6 +51,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0518-coin-change-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1143-longest-common-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 ## Tree
 |  |
 | ------- |
@@ -75,4 +76,8 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/gurjung/leetcode-solutions/tree/master/0062-unique-paths) |
+## String
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
