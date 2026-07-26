@@ -25,6 +25,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/gurjung/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -80,9 +81,14 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## String
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/gurjung/leetcode-solutions/tree/master/0127-word-ladder) |
 | [1143-longest-common-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 ## Greedy
 |  |
 | ------- |
 | [0135-candy](https://github.com/gurjung/leetcode-solutions/tree/master/0135-candy) |
+## Hash Table
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/gurjung/leetcode-solutions/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
