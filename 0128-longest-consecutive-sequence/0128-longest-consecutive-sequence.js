@@ -1,0 +1,33 @@
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var longestConsecutive = function (nums) {
+    if (nums.length === 0) return 0;
+
+    nums.sort((a, b) => a - b);
+
+    let longest = 1;
+    let count = 1;
+
+    for (let i = 1; i < nums.length; i++) {
+
+        // Ignore duplicates
+        if (nums[i] === nums[i - 1]) {
+            continue;
+        }
+
+        // Consecutive number
+        if (nums[i] === nums[i - 1] + 1) {
+            count++;
+        }
+        // Sequence broken
+        else {
+            count = 1;
+        }
+
+        longest = Math.max(longest, count);
+    }
+
+    return longest;
+};
