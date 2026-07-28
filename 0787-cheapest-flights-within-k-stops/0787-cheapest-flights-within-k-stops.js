@@ -10,18 +10,20 @@ var findCheapestPrice = function (n, flights, src, dst, k) {
     let res = new Array(n).fill(Infinity);
     res[src] = 0;
     for (let i = 0; i <= k; i++) {
-        // k+1 times relaxation
-        let temp = [...res];
-        for (let j = 0; j < flights.length; j++) {
-            let src = flights[j][0];
-            let dest = flights[j][1];
-            let price = flights[j][2];
+        // K+1 times relaxation
+        let temp = [...res]; // clone res array
 
-            if(res[src] !== Infinity && temp[dest] > res[src] + price) {
-                temp[dest] = res[src] + price
+        for (let j = 0; j < flights.length; j++) {
+            let u = flights[j][0];
+            let v = flights[j][1];
+            let w = flights[j][2];
+
+            if (res[u] !== Infinity && temp[v] > res[u] + w) {
+                temp[v] = res[u] + w
             }
         }
-        res = [...temp];
+
+        res = [...temp]
     }
 
     return res[dst] === Infinity ? -1 : res[dst]
