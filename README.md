@@ -23,6 +23,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -30,11 +31,13 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Union-Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/gurjung/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -68,6 +71,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Shortest Path
 |  |
 | ------- |
