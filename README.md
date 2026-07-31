@@ -45,6 +45,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/gurjung/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -120,4 +121,16 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+## Linked List
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/gurjung/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/gurjung/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/gurjung/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
