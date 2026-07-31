@@ -91,61 +91,121 @@ class MaxHeapOwn {
 }
 
 var leastInterval = function (tasks, n) {
-    // Approach 2 -> using heaps
+    // Approach 2 -> using heaps O(T × K log K)
+    // let maxHeap = new MaxHeapOwn();
+
+    // // create freq map and map for seating arrangement
+    // let freq = {};
+    // let allocationMap = {};
+
+    // for (let i = 0; i < tasks.length; i++) {
+    //     let char = tasks[i];
+    //     if (freq[char]) {
+    //         freq[char] = freq[char] + 1;
+    //     } else {
+    //         freq[char] = 1;
+    //         allocationMap[char] = 1;
+    //     }
+    // }
+
+    // for (let key in freq) {
+    //     let obj = {
+    //         val: freq[key],
+    //         char: key
+    //     }
+    //     maxHeap.insert(obj)
+    // }
+
+    // let seat = 1;
+
+    // while (maxHeap.size() > 0) {
+
+    //     let idleArr = [];
+
+    //     while (maxHeap.size() > 0) {
+    //         let curr = maxHeap.extract();
+    //         let val = curr.val;
+    //         let char = curr.char;
+    //         if (allocationMap[char] <= seat) {
+    //             if (val > 1) {
+    //                 maxHeap.insert({
+    //                     val: val - 1,
+    //                     char: char
+    //                 })
+    //                 allocationMap[char] = seat + n + 1; // next free seat available
+    //             }
+    //             break;
+    //         } else {
+    //             idleArr.push(curr)
+    //         }
+    //     }
+
+    //     for (let i = 0; i < idleArr.length; i++) {
+    //         maxHeap.insert(idleArr[i])
+    //     }
+    //     seat++;
+    // }
+
+    // return seat - 1;
+
+    // Approach 3 -> using heap + cooldown queue O(TlogK)
+    // k = number of distinct task types
+    // T = total slots or intervals
+
+    let freq = {};
+
+    for (let task of tasks) {
+        freq[task] = (freq[task] || 0) + 1;
+    }
+
     let maxHeap = new MaxHeapOwn();
 
-    // create freq map and map for seating arrangement
-    let freq = {};
-    let allocationMap = {};
-
-    for (let i = 0; i < tasks.length; i++) {
-        let char = tasks[i];
-        if (freq[char]) {
-            freq[char] = freq[char] + 1;
-        } else {
-            freq[char] = 1;
-            allocationMap[char] = 1;
-        }
-    }
-
     for (let key in freq) {
-        let obj = {
+        maxHeap.insert({
             val: freq[key],
             char: key
-        }
-        maxHeap.insert(obj)
+        });
     }
 
-    let seat = 1;
+    // { val, char, availableAt }
+    let cooldown = [];
 
-    while (maxHeap.size() > 0) {
+    let seat = 0;
 
-        let idleArr = [];
+    while (maxHeap.size() > 0 || cooldown.length > 0) {
 
-        while (maxHeap.size() > 0) {
+        seat++;
+
+        // Execute one task if possible
+        if (maxHeap.size() > 0) {
+
             let curr = maxHeap.extract();
-            let val = curr.val;
-            let char = curr.char;
-            if (allocationMap[char] <= seat) {
-                if (val > 1) {
-                    maxHeap.insert({
-                        val: val - 1,
-                        char: char
-                    })
-                    allocationMap[char] = seat + n + 1; // next free seat available
-                }
-                break;
-            } else {
-                idleArr.push(curr)
+
+            curr.val--;
+
+            if (curr.val > 0) {
+                cooldown.push({
+                    val: curr.val,
+                    char: curr.char,
+                    availableAt: seat + n
+                });
             }
         }
 
-        for (let i = 0; i < idleArr.length; i++) {
-            maxHeap.insert(idleArr[i])
+        // Move tasks whose cooldown has finished back to heap
+        while (
+            cooldown.length > 0 &&
+            cooldown[0].availableAt === seat
+        ) {
+            let task = cooldown.shift();
+
+            maxHeap.insert({
+                val: task.val,
+                char: task.char
+            });
         }
-        seat++;
     }
 
-    return seat - 1;
-
+    return seat;
 };
+
