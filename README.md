@@ -17,6 +17,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0518-coin-change-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
+| [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
 | [1584-min-cost-to-connect-all-points](https://github.com/gurjung/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 ## Binary Search
 |  |
@@ -145,4 +146,12 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
+## Two Pointers
+|  |
+| ------- |
+| [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
+## Sweep Line
+|  |
+| ------- |
+| [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
 <!---LeetCode Topics End-->
