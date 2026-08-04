@@ -18,6 +18,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0518-coin-change-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/gurjung/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
 | [1584-min-cost-to-connect-all-points](https://github.com/gurjung/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 ## Binary Search
@@ -26,6 +27,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/gurjung/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -173,4 +175,8 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0024-swap-nodes-in-pairs](https://github.com/gurjung/leetcode-solutions/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/gurjung/leetcode-solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0206-reverse-linked-list) |
+## Ternary Search
+|  |
+| ------- |
+| [0852-peak-index-in-a-mountain-array](https://github.com/gurjung/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
 <!---LeetCode Topics End-->
