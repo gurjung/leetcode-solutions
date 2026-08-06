@@ -11,6 +11,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0056-merge-intervals](https://github.com/gurjung/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/gurjung/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
+| [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
 | [0128-longest-consecutive-sequence](https://github.com/gurjung/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/gurjung/leetcode-solutions/tree/master/0135-candy) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -187,4 +188,12 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0852-peak-index-in-a-mountain-array](https://github.com/gurjung/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
