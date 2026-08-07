@@ -21,7 +21,7 @@ var combinationSum = function (candidates, target) {
 
         // recursive step and process
         for (let i = p; i < candidates.length; i++) {
-            if (candidates[i] > target) continue;
+            if (candidates[i] > remSum) continue;
             temp.push(candidates[i])
             recur(remSum - candidates[i], temp, i)
             temp.pop();
