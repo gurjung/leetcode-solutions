@@ -8,6 +8,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0039-combination-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0056-merge-intervals](https://github.com/gurjung/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/gurjung/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
@@ -201,6 +202,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gurjung/leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/gurjung/leetcode-solutions/tree/master/0022-generate-parentheses) |
+| [0039-combination-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
