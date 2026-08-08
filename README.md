@@ -43,6 +43,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -93,10 +94,12 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 ## Graph Theory
 |  |
@@ -185,6 +188,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/gurjung/leetcode-solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/gurjung/leetcode-solutions/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 ## Recursion
