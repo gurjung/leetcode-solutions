@@ -99,6 +99,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0213-house-robber-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
+| [0338-counting-bits](https://github.com/gurjung/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0518-coin-change-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1143-longest-common-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
@@ -242,6 +243,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/gurjung/leetcode-solutions/tree/master/0136-single-number) |
+| [0338-counting-bits](https://github.com/gurjung/leetcode-solutions/tree/master/0338-counting-bits) |
 ## Bracket Sequences
 |  |
 | ------- |
