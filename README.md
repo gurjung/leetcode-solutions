@@ -52,6 +52,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0110-balanced-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/gurjung/leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -129,6 +130,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0110-balanced-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/gurjung/leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -150,6 +152,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0110-balanced-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/gurjung/leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
