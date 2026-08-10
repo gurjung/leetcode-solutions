@@ -81,6 +81,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Union-Find
 |  |
@@ -142,6 +143,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0543-diameter-of-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0700-search-in-a-binary-search-tree) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -166,6 +168,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0543-diameter-of-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0700-search-in-a-binary-search-tree) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 ## Graph Theory
 |  |
 | ------- |
