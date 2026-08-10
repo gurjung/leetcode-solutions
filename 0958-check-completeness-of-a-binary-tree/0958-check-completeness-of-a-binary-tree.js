@@ -18,21 +18,18 @@ var isCompleteTree = function (root) {
 
     while (q.length) {
         let curr = q.shift();
-        if (curr.left && !isNull) {
-            q.push(curr.left)
-        } else if (curr.left && isNull) {
-            return false;
-        } else {
+
+        if (!curr) {
             isNull = true;
+            continue;
         }
 
-        if (curr.right && !isNull) {
-            q.push(curr.right)
-        } else if (curr.right && isNull) {
-            return false;
-        } else {
-            isNull = true;
+        if (isNull) {
+            return false
         }
+
+        q.push(curr.left);
+        q.push(curr.right);
 
     }
 
