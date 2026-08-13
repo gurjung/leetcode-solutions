@@ -18,6 +18,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0135-candy](https://github.com/gurjung/leetcode-solutions/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/gurjung/leetcode-solutions/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
@@ -58,6 +59,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0129-sum-root-to-leaf-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0133-clone-graph](https://github.com/gurjung/leetcode-solutions/tree/master/0133-clone-graph) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
+| [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -80,6 +82,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/gurjung/leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0127-word-ladder](https://github.com/gurjung/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/gurjung/leetcode-solutions/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -91,6 +94,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/gurjung/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1584-min-cost-to-connect-all-points](https://github.com/gurjung/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
@@ -106,6 +110,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
+| [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
