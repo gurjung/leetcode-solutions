@@ -21,6 +21,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0213-house-robber-ii) |
+| [0238-product-of-array-except-self](https://github.com/gurjung/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -344,4 +345,8 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/gurjung/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
