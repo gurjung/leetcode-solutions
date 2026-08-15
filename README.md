@@ -346,6 +346,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## DP on Trees
 |  |
 | ------- |
+| [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
