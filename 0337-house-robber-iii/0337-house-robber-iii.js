@@ -12,23 +12,19 @@
  */
 var rob = function (root) {
 
-    function recur(node) {
-        // base case
-        if (!node) return [0, 0];
+    function recur(curr) {
+        if (!curr) return [0, 0];
 
-        let left = recur(node.left);
-        let right = recur(node.right);
-
+        let left = recur(curr.left);
+        let right = recur(curr.right);
         // rob = currVal + skip left child val + skip right child val
-        let rob = node.val + left[1] + right[1];
-
+        let rob = curr.val + left[1] + right[1];
         // skip = Math.max(left child rob, left child skip) + Math.max(right child rob, right child skip)
-        let skip = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
-
+        let skip = Math.max(left[0], left[1]) + Math.max(right[0], right[1])
         return [rob, skip]
     }
 
     let options = recur(root);
-    // return Math.max(rob, skip)
+
     return Math.max(options[0], options[1])
 };
