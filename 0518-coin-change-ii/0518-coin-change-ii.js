@@ -28,7 +28,47 @@ var change = function (amount, coins) {
     // return recur(amount, 0)
 
 
-    // Approach -> recursion + memo
+    // // Approach 2 -> recursion + memo
+    // let n = coins.length;
+
+    // let dp = [];
+
+    // for (let i = 0; i < amount + 1; i++) {
+    //     dp[i] = [];
+    //     for (let j = 0; j < n; j++) {
+    //         dp[i][j] = -1;
+    //     }
+    // }
+
+    // for (let j = 0; j < n; j++) {
+    //     dp[0][j] = 1;
+    // }
+
+    // function recur(remSum, p) {
+    //     // base case
+    //     if (remSum === 0) {
+    //         return 1;
+    //     }
+
+    //     if (remSum < 0 || p >= n) {
+    //         return 0;
+    //     }
+
+    //     if (dp[remSum][p] !== -1) {
+    //         return dp[remSum][p];
+    //     }
+
+    //     let takeIt = recur(remSum - coins[p], p);
+    //     let skip = recur(remSum, p + 1);
+
+    //     dp[remSum][p] = takeIt + skip;
+    //     return dp[remSum][p];
+    // }
+
+    // return recur(amount, 0)
+
+    // Approach 3 -> tabulation
+
     let n = coins.length;
 
     let dp = [];
@@ -44,26 +84,23 @@ var change = function (amount, coins) {
         dp[0][j] = 1;
     }
 
-    function recur(remSum, p) {
-        // base case
-        if (remSum === 0) {
-            return 1;
+    for (let remSum = 1; remSum <= amount; remSum++) {
+        for (let p = n; p >= 0; p--) {
+            if (remSum < 0 || p >= n) {
+                dp[remSum][p] = 0;
+                continue;
+            }
+
+            // two choices
+            let takeIt = 0;
+            if (remSum >= coins[p]) {
+                takeIt = dp[remSum - coins[p]][p];
+            }
+            let skip = dp[remSum][p + 1];
+
+            dp[remSum][p] = takeIt + skip;
         }
-
-        if (remSum < 0 || p >= n) {
-            return 0;
-        }
-
-        if (dp[remSum][p] !== -1) {
-            return dp[remSum][p];
-        }
-
-        let takeIt = recur(remSum - coins[p], p);
-        let skip = recur(remSum, p + 1);
-
-        dp[remSum][p] = takeIt + skip;
-        return dp[remSum][p];
     }
 
-    return recur(amount, 0)
+    return dp[amount][0]
 };
