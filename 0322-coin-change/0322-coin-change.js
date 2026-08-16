@@ -4,67 +4,67 @@
  * @return {number}
  */
 var coinChange = function (coins, amount) {
-    // Approach 1 -> recursion
-
-    // coins = [1,2,5], amount = 11
+    // // Approach 1 -> recursion
+    // let n = coins.length;
 
     // function recur(remSum, p) {
-    //     // base case
     //     if (remSum === 0) {
     //         return 0;
     //     }
 
-    //     if (remSum < 0) {
+    //     if (remSum < 0 || p >= n) {
     //         return Infinity;
     //     }
 
-    //     let minCoins = Infinity;
+    //     // two choices
+    //     let take = 1 + recur(remSum - coins[p], p)
+    //     let skip = recur(remSum, p + 1);
 
-    //     for (let i = 0; i < coins.length; i++) {
-    //         minCoins = Math.min(minCoins, 1 + recur(remSum - coins[i]));
-    //     }
-
-    //     return minCoins;
-
+    //     return Math.min(take, skip)
     // }
 
-    // let res = recur(amount, 0);
-
-    // return res === Infinity ? -1 : res;
+    // let ans = recur(amount, 0);
+    // return ans === Infinity ? -1 : ans
 
 
     // Approach 2 -> recursion + memo
 
-    let dp = new Array(amount + 1).fill(-1);
+    let n = coins.length;
+
+    let dp = []
+
+    for (let i = 0; i < amount + 1; i++) {
+        dp[i] = [];
+        for (let j = 0; j < coins.length; j++) {
+            dp[i][j] = -1;
+        }
+    }
+    for(let j = 0; j < coins.length; j++) {
+        dp[0][j] = 0;
+    }
+
 
     function recur(remSum, p) {
-        // base case
         if (remSum === 0) {
             return 0;
         }
 
-        if (remSum < 0) {
+        if (remSum < 0 || p >= n) {
             return Infinity;
         }
 
-        if (dp[remSum] !== -1) {
-            return dp[remSum];
+        if (dp[remSum][p] !== -1) {
+            return dp[remSum][p]
         }
 
-        let minCoins = Infinity;
+        // two choices
+        let take = 1 + recur(remSum - coins[p], p)
+        let skip = recur(remSum, p + 1);
 
-        for (let i = 0; i < coins.length; i++) {
-            minCoins = Math.min(minCoins, 1 + recur(remSum - coins[i]));
-        }
-
-        dp[remSum] = minCoins;
-
-        return dp[remSum];
-
+        dp[remSum][p] = Math.min(take, skip);
+        return dp[remSum][p]
     }
 
-    let res = recur(amount, 0);
-
-    return res === Infinity ? -1 : res;
-
+    let ans = recur(amount, 0);
+    return ans === Infinity ? -1 : ans
 };
