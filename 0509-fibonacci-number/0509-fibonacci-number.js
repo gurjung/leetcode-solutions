@@ -40,13 +40,28 @@ var fib = function (n) {
 
     // approach 3 -> tabulation
 
-    let dp = new Array(n + 1).fill(-1);
-    dp[0] = 0;
-    dp[1] = 1;
+    // let dp = new Array(n + 1).fill(-1);
+    // dp[0] = 0;
+    // dp[1] = 1;
+
+    // for (let i = 2; i <= n; i++) {
+    //     dp[i] = dp[i - 1] + dp[i - 2]
+    // }
+    // return dp[n]
+
+
+    // approach 3 -> tabulation + space optimized
+
+    if (n <= 1) return n;
+
+    p2 = 0;
+    p1 = 1;
 
     for (let i = 2; i <= n; i++) {
-        dp[i] = dp[i - 1] + dp[i - 2]
+        let curr = p1 + p2;
+        p2 = p1;
+        p1 = curr;
     }
-    return dp[n]
+    return p1
 
 };
