@@ -31,13 +31,41 @@ var solve = function (board) {
         }
     }
     // edges -> i = 0, 
-    for (let i = 0; i < m; i++) {
-        for (let j = 0; j < n; j++) {
-            if (i === 0 || j === 0 || i === m - 1 || j === n - 1) {
-                if (board[i][j] === "O") {
-                    recur(i, j)
-                }
-            }
+    // for (let i = 0; i < m; i++) {
+    //     for (let j = 0; j < n; j++) {
+    //         if (i === 0 || j === 0 || i === m - 1 || j === n - 1) {
+    //             if (board[i][j] === "O") {
+    //                 recur(i, j)
+    //             }
+    //         }
+    //     }
+    // }
+
+    // 1st row
+    for (j = 0; j < n; j++) {
+        if (board[0][j] === "O") {
+            recur(0, j)
+        }
+    }
+
+    // last row
+    for (j = 0; j < n; j++) {
+        if (board[m - 1][j] === "O") {
+            recur(m - 1, j)
+        }
+    }
+
+    // 1st column
+    for (i = 0; i < m; i++) {
+        if (board[i][0] === "O") {
+            recur(i, 0)
+        }
+    }
+
+    // last column
+    for (i = 0; i < m; i++) {
+        if (board[i][n - 1] === "O") {
+            recur(i, n - 1)
         }
     }
 
