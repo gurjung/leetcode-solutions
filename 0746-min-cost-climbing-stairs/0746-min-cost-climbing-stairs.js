@@ -20,24 +20,39 @@ var minCostClimbingStairs = function (cost) {
 
     // return Math.min(recur(0), recur(1))
 
-    // Approach 2 -> recursion + memo
+    // // Approach 2 -> recursion + memo
 
-    let dp = new Array(cost.length + 1).fill(-1)
+    // let dp = new Array(cost.length + 1).fill(-1)
 
-    function recur(p) {
-        // base condition
-        if (p >= cost.length) {
-            return 0;
-        }
+    // function recur(p) {
+    //     // base condition
+    //     if (p >= cost.length) {
+    //         return 0;
+    //     }
 
-        if (dp[p] !== -1) {
-            return dp[p]
-        }
+    //     if (dp[p] !== -1) {
+    //         return dp[p]
+    //     }
 
-        dp[p] = cost[p] + Math.min(recur(p + 1), recur(p + 2))
-        return dp[p];
+    //     dp[p] = cost[p] + Math.min(recur(p + 1), recur(p + 2))
+    //     return dp[p];
+    // }
+
+    // return Math.min(recur(0), recur(1))
+
+    // Approach 3 -> tabulation
+    let n = cost.length;
+
+    let dp = new Array(n + 1).fill(-1);
+
+    // base case
+    dp[n] = 0; // no cost on top floor;
+    dp[n - 1] = cost[n - 1] + dp[n];
+
+    for (let i = n - 2; i >= 0; i--) {
+        dp[i] = cost[i] + Math.min(dp[i + 1], dp[i + 2])
     }
 
-    return Math.min(recur(0), recur(1))
+    return Math.min(dp[0], dp[1])
 
 };
