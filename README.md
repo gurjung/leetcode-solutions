@@ -18,6 +18,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0130-surrounded-regions](https://github.com/gurjung/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/gurjung/leetcode-solutions/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/gurjung/leetcode-solutions/tree/master/0136-single-number) |
+| [0152-maximum-product-subarray](https://github.com/gurjung/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/gurjung/leetcode-solutions/tree/master/0198-house-robber) |
@@ -146,6 +147,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0022-generate-parentheses](https://github.com/gurjung/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0062-unique-paths](https://github.com/gurjung/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
+| [0152-maximum-product-subarray](https://github.com/gurjung/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/gurjung/leetcode-solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
