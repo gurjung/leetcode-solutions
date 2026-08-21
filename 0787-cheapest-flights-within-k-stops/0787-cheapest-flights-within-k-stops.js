@@ -7,22 +7,22 @@
  * @return {number}
  */
 var findCheapestPrice = function (n, flights, src, dst, k) {
-    let res = new Array(n).fill(Infinity);
+    // approach 1 -> modified bellman ford
+
+    let res = new Array(n).fill(+Infinity);
+
     res[src] = 0;
-    for (let i = 0; i <= k; i++) {
-        // K+1 times relaxation
-        let temp = [...res]; // clone res array
 
-        for (let j = 0; j < flights.length; j++) {
-            let u = flights[j][0];
-            let v = flights[j][1];
-            let w = flights[j][2];
-
+    for (let i = 0; i < k + 1; i++) {
+        let temp = [...res]; // res array clone;
+        for (let i = 0; i < flights.length; i++) {
+            let u = flights[i][0];
+            let v = flights[i][1];
+            let w = flights[i][2];
             if (res[u] !== Infinity && temp[v] > res[u] + w) {
                 temp[v] = res[u] + w
             }
         }
-
         res = [...temp]
     }
 
