@@ -5,45 +5,45 @@
  * @return {number}
  */
 var ladderLength = function (beginWord, endWord, wordList) {
-    // approach BFS
-
-    let wordSet = new Set(wordList);
-
-    if (!wordSet.has(endWord)) {
-        return 0;
-    }
+    // "hit"
+    // ["h", "i", "t"]
+    // Approach -> shortest path + unweighted edges -> BFS
 
     let q = [];
+    let wordSet = new Set(wordList);
+    if (!wordSet.has(endWord)) return 0;
 
     q.push({ begin: beginWord, val: 1 });
 
     while (q.length) {
-        let curr = q.shift();
-        let str = curr.begin;
-        let val = curr.val;
-        if (str === endWord) {
-            return val;
-        }
-        for (let i = 0; i < str.length; i++) {
-            // explore all single characters
-            let char = str.split("");
+        let { begin, val } = q.shift();
 
+        if (begin === endWord) return val;
+
+
+        // ["h", "i", "t"]
+        for (let i = 0; i < begin.length; i++) {
+            
+            let charArr = begin.split('');
+            
             for (let c = 97; c <= 122; c++) {
-                let nextChar = String.fromCharCode(c);
+                // 25 possibilities for each char
+                let ch = String.fromCharCode(c);
 
-                if (char[i] === nextChar) continue;
+                if (charArr[i] === ch) continue;
 
-                char[i] = nextChar;
+                charArr[i] = ch;
 
-                let nextWord = char.join("");
-                if (wordSet.has(nextWord)) {
-                    q.push({ begin: nextWord, val: val + 1 });
-                    wordSet.delete(nextWord)
+                let newWord = charArr.join("");
+
+                if (wordSet.has(newWord)) {
+                    q.push({ begin: newWord, val: val + 1 });
+                    wordSet.delete(newWord)
                 }
             }
-
         }
-    }
 
+    }
     return 0;
+
 };
