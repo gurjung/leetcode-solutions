@@ -424,4 +424,8 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/gurjung/leetcode-solutions/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
