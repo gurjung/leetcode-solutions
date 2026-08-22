@@ -90,19 +90,17 @@ class MinHeapOwn {
     }
 }
 
-
 var countPaths = function (n, roads) {
-    // create adjacency list
-    // create min heap
-    // track min time
-    // track path count
+    // Approach -> dijktra's algo
+    let MOD = 1e9 + 7;
 
     const minHeap = new MinHeapOwn();
 
-    let map = {};
+    // adjacency list
+    const map = {};
 
     for (let i = 0; i < n; i++) {
-        map[i] = []
+        map[i] = [];
     }
 
     for (let i = 0; i < roads.length; i++) {
@@ -115,43 +113,38 @@ var countPaths = function (n, roads) {
 
     let distArr = new Array(n).fill(Infinity);
 
+    distArr[0] = 0;
+
     let pathArr = new Array(n).fill(0);
+
+    pathArr[0] = 1;
 
     minHeap.insert({
         distance: 0,
         node: 0
     })
 
-    pathArr[0] = 1;
-    distArr[0] = 0;
-
-    let MOD = 1e9 + 7
-
-    while (minHeap.size() > 0) {
+    while (minHeap.size()) {
         let curr = minHeap.extract();
         let currDist = curr.distance;
         let currNode = curr.node;
-
         if (currDist > distArr[currNode]) continue;
-
         for (let [neighbor, weight] of map[currNode]) {
-            // New shortest Path
             let newDist = currDist + weight;
 
-            if (newDist < distArr[neighbor]) {
+            if (distArr[neighbor] > newDist) {
                 distArr[neighbor] = newDist;
                 minHeap.insert({
                     distance: newDist,
                     node: neighbor
                 })
                 pathArr[neighbor] = pathArr[currNode];
-            } else if (newDist === distArr[neighbor]) {
-                pathArr[neighbor] = (pathArr[currNode] + pathArr[neighbor]) % MOD
+            } else if (distArr[neighbor] === newDist) {
+                pathArr[neighbor] = (pathArr[neighbor] + pathArr[currNode]) % MOD;
             }
         }
 
     }
 
     return pathArr[n - 1]
-
 };
