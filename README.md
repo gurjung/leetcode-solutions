@@ -418,6 +418,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/gurjung/leetcode-solutions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## 0-1 Knapsack
 |  |
 | ------- |
