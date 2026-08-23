@@ -94,7 +94,7 @@ var longestPalindromeSubseq = function (s) {
 
     for (let i = n - 1; i >= 0; i--) {
         for (let j = i + 1; j <= n; j++) {
-
+            // j = i+1 => satisfies all cases like -> 1)  i > j = invalid(X), 2) i === j and j > i = Always Valid 
             // two choices
             if (s[i] === s[j]) {
                 // +2 because we get two characters already as s[i] and s[j]
