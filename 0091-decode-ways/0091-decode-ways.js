@@ -30,34 +30,62 @@ var numDecodings = function (s) {
 
     // return recur(s)
 
-    // Approach 2 -> recursion + memo
+    // // Approach 2 -> recursion + memo
 
-    let dp = {}
+    // let dp = {}
 
-    function recur(remS) {
-        // base case
-        if (remS === "") {
-            return 1;
+    // function recur(remS) {
+    //     // base case
+    //     if (remS === "") {
+    //         return 1;
+    //     }
+    //     if(remS in dp) {
+    //         return dp[remS]
+    //     }
+    //     let n = remS.length;
+    //     let ans = 0;
+    //     let oneDigit = remS.substring(n - 1);
+    //     if (oneDigit !== "0") {
+    //         ans = ans + recur(remS.substring(0, n - 1))
+    //     }
+    //     if (n >= 2) {
+    //         let twoDigit = Number(remS.substring(n - 2));
+    //         if (twoDigit >= 10 && twoDigit <= 26) {
+    //             ans = ans + recur(remS.substring(0, n - 2))
+    //         }
+    //     }
+
+    //     dp[remS] = ans;
+    //     return dp[remS]
+    // }
+
+    // return recur(s)
+
+    // Approach 3 -> recursion + memo
+     let n = s.length;
+
+    let dp = new Array(n + 1).fill(0);
+    // dp[i] === length of remString
+    // dp[0] = ""
+    // dp[1] = "2"
+    // dp[2] = "26"
+    // dp[3] = "226"
+
+    // base case 
+    dp[0] = 1; // remS === " " return 1 from recursion solution
+
+    for (let i = 1; i <= n; i++) {
+        if (s[i - 1] !== "0") {
+            dp[i] = dp[i] + dp[i - 1]
         }
-        if(remS in dp) {
-            return dp[remS]
-        }
-        let n = remS.length;
-        let ans = 0;
-        let oneDigit = remS.substring(n - 1);
-        if (oneDigit !== "0") {
-            ans = ans + recur(remS.substring(0, n - 1))
-        }
-        if (n >= 2) {
-            let twoDigit = Number(remS.substring(n - 2));
+
+        if (i >= 2) {
+            let twoDigit = Number(s.substring(i - 2, i));
             if (twoDigit >= 10 && twoDigit <= 26) {
-                ans = ans + recur(remS.substring(0, n - 2))
+                 dp[i] = dp[i] + dp[i - 2]
             }
         }
-
-        dp[remS] = ans;
-        return dp[remS]
     }
 
-    return recur(s)
+    return dp[n]
 };
