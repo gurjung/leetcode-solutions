@@ -9,6 +9,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0033-search-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0039-combination-sum) |
+| [0045-jump-game-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/gurjung/leetcode-solutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/gurjung/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/gurjung/leetcode-solutions/tree/master/0057-insert-interval) |
@@ -150,6 +151,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/gurjung/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/gurjung/leetcode-solutions/tree/master/0022-generate-parentheses) |
+| [0045-jump-game-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/gurjung/leetcode-solutions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/gurjung/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
@@ -272,6 +274,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/gurjung/leetcode-solutions/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/gurjung/leetcode-solutions/tree/master/0135-candy) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
