@@ -44,6 +44,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0875-koko-eating-bananas](https://github.com/gurjung/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
 | [0994-rotting-oranges](https://github.com/gurjung/leetcode-solutions/tree/master/0994-rotting-oranges) |
+| [1109-corporate-flight-bookings](https://github.com/gurjung/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/gurjung/leetcode-solutions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/gurjung/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1584-min-cost-to-connect-all-points](https://github.com/gurjung/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
@@ -415,6 +416,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/gurjung/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
+| [1109-corporate-flight-bookings](https://github.com/gurjung/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
 ## Graph Coloring
 |  |
 | ------- |
