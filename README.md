@@ -12,6 +12,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0041-first-missing-positive](https://github.com/gurjung/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0045-jump-game-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/gurjung/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/gurjung/leetcode-solutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/gurjung/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/gurjung/leetcode-solutions/tree/master/0057-insert-interval) |
@@ -142,6 +143,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0130-surrounded-regions](https://github.com/gurjung/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
@@ -480,4 +482,8 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/gurjung/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
