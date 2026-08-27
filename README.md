@@ -27,6 +27,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0139-word-break](https://github.com/gurjung/leetcode-solutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/gurjung/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/gurjung/leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/gurjung/leetcode-solutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
@@ -58,6 +59,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0033-search-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/gurjung/leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
