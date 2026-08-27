@@ -18,6 +18,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0118-pascals-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0118-pascals-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/gurjung/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/gurjung/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/gurjung/leetcode-solutions/tree/master/0135-candy) |
@@ -162,6 +163,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0072-edit-distance](https://github.com/gurjung/leetcode-solutions/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/gurjung/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/gurjung/leetcode-solutions/tree/master/0115-distinct-subsequences) |
+| [0118-pascals-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0118-pascals-triangle) |
 | [0139-word-break](https://github.com/gurjung/leetcode-solutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/gurjung/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/gurjung/leetcode-solutions/tree/master/0198-house-robber) |
