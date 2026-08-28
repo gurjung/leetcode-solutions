@@ -24,12 +24,10 @@ var isAnagram = function (s, t) {
         let char = t[i];
         if (map[char]) {
             map[char] = map[char] - 1
+        } else {
+            return false
         }
     }
 
-    for (let key in map) {
-        let val = map[key];
-        if (val > 0) return false;
-    }
     return true;
 };
