@@ -34,6 +34,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/gurjung/leetcode-solutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0238-product-of-array-except-self](https://github.com/gurjung/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
@@ -267,6 +268,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0062-unique-paths](https://github.com/gurjung/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0149-max-points-on-a-line](https://github.com/gurjung/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
+| [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Combinatorics
@@ -523,5 +525,22 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
