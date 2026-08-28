@@ -6,6 +6,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/gurjung/leetcode-solutions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0036-valid-sudoku](https://github.com/gurjung/leetcode-solutions/tree/master/0036-valid-sudoku) |
@@ -369,6 +370,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/gurjung/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+| [0031-next-permutation](https://github.com/gurjung/leetcode-solutions/tree/master/0031-next-permutation) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
