@@ -57,6 +57,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/gurjung/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1584-min-cost-to-connect-all-points](https://github.com/gurjung/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -267,6 +268,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0062-unique-paths](https://github.com/gurjung/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0149-max-points-on-a-line](https://github.com/gurjung/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Combinatorics
 |  |
 | ------- |
@@ -512,8 +514,14 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/gurjung/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Greatest Common Divisor
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/gurjung/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Number Theory
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
