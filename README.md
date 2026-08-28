@@ -268,6 +268,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0062-unique-paths](https://github.com/gurjung/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0149-max-points-on-a-line](https://github.com/gurjung/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
+| [0168-excel-sheet-column-title](https://github.com/gurjung/leetcode-solutions/tree/master/0168-excel-sheet-column-title) |
 | [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -287,6 +288,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0115-distinct-subsequences](https://github.com/gurjung/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/gurjung/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/gurjung/leetcode-solutions/tree/master/0139-word-break) |
+| [0168-excel-sheet-column-title](https://github.com/gurjung/leetcode-solutions/tree/master/0168-excel-sheet-column-title) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0516-longest-palindromic-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
