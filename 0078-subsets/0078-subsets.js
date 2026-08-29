@@ -2,28 +2,26 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var subsets = function (arr) {
-    let temp = [];
+var subsets = function (nums) {
     let result = [];
-    let n = arr.length;
-
+    let temp = [];
+    let n = nums.length;
+    //[1,2,3]
     function recur(temp, p) {
-        // base case
+        // base condition
         if (p === n) {
-            result.push([...temp]);
+            result.push([...temp])
             return;
         }
 
         // recursive step and process
-        // take it
-        temp.push(arr[p]);
+        // two choices
+        temp.push(nums[p]);
         recur(temp, p + 1);
-        // not take it
         temp.pop();
         recur(temp, p + 1);
-
     }
 
-    recur(temp, 0)
-    return result
+    recur(temp, 0);
+    return result;
 };
