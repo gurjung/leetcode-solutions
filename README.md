@@ -402,6 +402,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gurjung/leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/gurjung/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0039-combination-sum) |
+| [0077-combinations](https://github.com/gurjung/leetcode-solutions/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0113-path-sum-ii) |
 | [0494-target-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0494-target-sum) |
