@@ -3,32 +3,30 @@
  * @return {string[]}
  */
 var generateParenthesis = function (n) {
-    // recursion + backtracking
-    let open = 0;
-    let close = 0;
-    let temp = [];
     let result = [];
+    let temp = [];
+    // no open means no close
     function recur(temp, open, close) {
-        // base condition
+        // base case
         if (open === n && close === n) {
             let str = temp.join("");
             result.push(str);
             return;
         }
 
-        // recurive step and process
+        // recursive step and process
         if (open < n) {
-            temp.push("(")
+            temp.push("(");
             recur(temp, open + 1, close);
             temp.pop();
         }
-        if (close < open) {
+        if (open > close) {
             temp.push(")");
-            recur(temp, open, close + 1)
+            recur(temp, open, close + 1);
             temp.pop();
         }
     }
 
-    recur(temp, open, close);
-    return result
+    recur(temp, 0, 0);
+    return result;
 };
