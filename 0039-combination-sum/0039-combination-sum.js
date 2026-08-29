@@ -4,31 +4,27 @@
  * @return {number[][]}
  */
 var combinationSum = function (candidates, target) {
-    // 
     let result = [];
     let temp = [];
-    // temp = [2, 2, 3 ]
-    // remsum = 7-2 = 5 - 2 = 3 - 2 = 1 - 2 = -1
+    let n = candidates.length;
+
     function recur(remSum, temp, p) {
-        // base condition
+        // base conditions
         if (remSum === 0) {
-            result.push([...temp])
-            return;
-        }
-        if (remSum < 0) {
-            return;
+            result.push([...temp]);
+            return result;
         }
 
         // recursive step and process
-        for (let i = p; i < candidates.length; i++) {
-            if (candidates[i] > remSum) continue;
-            temp.push(candidates[i])
-            recur(remSum - candidates[i], temp, i)
+        for (let i = p; i < n; i++) {
+            if (remSum < candidates[i]) continue;
+
+            temp.push(candidates[i]);
+            recur(remSum - candidates[i], temp, i);
             temp.pop();
         }
-
     }
 
     recur(target, temp, 0);
-    return result
+    return result;
 };
