@@ -4,42 +4,52 @@
  * @return {number[]}
  */
 var findOrder = function (numCourses, prerequisites) {
-    // kahn's algo
-    let map = {};
-    let indegreesArr = new Array(numCourses).fill(0);
+    // [a, b] => b before a
+    // 
+    let indegrees = new Array(numCourses).fill(0);
     let q = [];
     let result = [];
+    
+    // adj list
+    let map = {};
 
-    // create adj list
     for (let i = 0; i < numCourses; i++) {
         map[i] = [];
     }
 
     for (let i = 0; i < prerequisites.length; i++) {
         let [a, b] = prerequisites[i];
+        //dest, src
         map[b].push(a);
-        indegreesArr[a] = indegreesArr[a] + 1;
+        indegrees[a] = indegrees[a] + 1;
     }
 
     for (let i = 0; i < numCourses; i++) {
-        if (indegreesArr[i] === 0) {
-            q.push(i)
+        if (indegrees[i] === 0) {
+            q.push(i);
         }
     }
+
+    // numCourses = 2, prerequisites = [[1,0]]
 
     while (q.length) {
         let curr = q.shift();
         result.push(curr);
-        for (let n of map[curr]) {
-            indegreesArr[n]--;
-            if (indegreesArr[n] === 0) {
-                q.push(n)
+
+        for (let neighbor of map[curr]) {
+            indegrees[neighbor]--;
+            if (indegrees[neighbor] === 0) {
+                q.push(neighbor);
             }
         }
+
     }
 
     if (result.length === numCourses) {
         return result;
+    } else {
+        return []
     }
-    return []
+
+
 };
