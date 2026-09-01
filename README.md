@@ -159,6 +159,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0743-network-delay-time](https://github.com/gurjung/leetcode-solutions/tree/master/0743-network-delay-time) |
+| [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
@@ -312,6 +313,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0516-longest-palindromic-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
+| [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/gurjung/leetcode-solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1143-longest-common-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/gurjung/leetcode-solutions/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
@@ -322,6 +324,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0055-jump-game](https://github.com/gurjung/leetcode-solutions/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/gurjung/leetcode-solutions/tree/master/0135-candy) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -340,6 +343,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
 ## Topological Sort
 |  |
@@ -361,6 +365,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/gurjung/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 ## Linked List
 |  |
@@ -390,6 +395,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
 ## Two Pointers
 |  |
 | ------- |
