@@ -3,6 +3,7 @@
  * @param {number} k
  * @return {number}
  */
+
 class MinHeapOwn {
     constructor() {
         this.heap = [];
@@ -89,42 +90,48 @@ class MinHeapOwn {
         return this.heap.length;
     }
 }
-var kthSmallest = function (matrix, k) {
-    // store 1st column in heap
-    // take pArr to track columns
 
+var kthSmallest = function (matrix, k) {
     let n = matrix.length;
     let m = matrix[0].length;
 
     let minHeap = new MinHeapOwn();
 
+    // 1  5   9
+    // 10 11 13
+    // 12 13 15
+
+    // act as pointer to keep track of column out of bound
+    let pArr = new Array(m).fill(0);
+
     for (let i = 0; i < n; i++) {
-        let colVal = matrix[i][0];
-        let obj = {
+        let colVal = matrix[i][0]
+
+        minHeap.insert({
             val: colVal,
             row: i
-        }
-        minHeap.insert(obj)
+        })
     }
-
-    let pArr = new Array(m).fill(0);
 
     for (let i = 0; i < k - 1; i++) {
         let curr = minHeap.extract();
-        let currVal = curr.val;
+        let val = curr.val;
         let idx = curr.row;
-        pArr[idx]++
+        pArr[idx]++;
+
         if (pArr[idx] < m) {
-            let row = idx;
-            let col = pArr[idx];
+            let r = idx;
+            let c = pArr[idx];
+            let newVal = matrix[r][c]
             let obj = {
-                val: matrix[row][col],
-                row: row
+                val: newVal,
+                row: r
             }
             minHeap.insert(obj)
         }
-
     }
 
     return minHeap.peek().val
+
+
 };
