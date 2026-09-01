@@ -90,14 +90,10 @@ class MinHeapOwn {
 }
 
 var minCostConnectPoints = function (points) {
-    // Prim's Algo to find MST
-
-    // in this question edge weight is not given to us, will calc on the go
-    let V = points.length;
-
     let minHeap = new MinHeapOwn();
-    let visitedArr = new Array(V).fill(false);
+    let n = points.length;
 
+    let visitedArr = new Array(n).fill(false);
     minHeap.insert({
         weight: 0,
         node: 0
@@ -105,30 +101,29 @@ var minCostConnectPoints = function (points) {
 
     let sum = 0;
 
-    while (minHeap.size() > 0) {
+    while (minHeap.size()) {
         let curr = minHeap.extract();
-        let currNode = curr.node;
         let currWeight = curr.weight;
+        let currNode = curr.node;
+
         if (!visitedArr[currNode]) {
             visitedArr[currNode] = true;
             sum = sum + currWeight;
-            for (let n = 0; n < V; n++) {
-                if (!visitedArr[n]) {
+            for (let i = 0; i < n; i++) {
+                if (!visitedArr[i]) {
                     let x1 = points[currNode][0];
-                    let x2 = points[n][0];
                     let y1 = points[currNode][1];
-                    let y2 = points[n][1];
-                    let edgeWeight = Math.abs(x2 - x1) + Math.abs(y2 - y1);
+                    let x2 = points[i][0];
+                    let y2 = points[i][1];
+                    let edgeWeight = Math.abs(x1 - x2) + Math.abs(y1 - y2);
                     minHeap.insert({
                         weight: edgeWeight,
-                        node: n
+                        node: i
                     })
                 }
-
             }
         }
     }
 
     return sum
-
 };
