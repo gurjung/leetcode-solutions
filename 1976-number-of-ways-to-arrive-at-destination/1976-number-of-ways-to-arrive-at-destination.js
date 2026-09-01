@@ -91,33 +91,27 @@ class MinHeapOwn {
 }
 
 var countPaths = function (n, roads) {
-    // Approach -> dijktra's algo
-    let MOD = 1e9 + 7;
+    const MOD = 1e9 + 7;
 
-    const minHeap = new MinHeapOwn();
-
-    // adjacency list
-    const map = {};
+    let map = {};
 
     for (let i = 0; i < n; i++) {
         map[i] = [];
     }
 
     for (let i = 0; i < roads.length; i++) {
-        let u = roads[i][0];
-        let v = roads[i][1];
-        let w = roads[i][2];
+        let [u, v, w] = roads[i];
         map[u].push([v, w]);
         map[v].push([u, w]);
     }
 
     let distArr = new Array(n).fill(Infinity);
-
     distArr[0] = 0;
 
-    let pathArr = new Array(n).fill(0);
+    let ways = new Array(n).fill(0);
+    ways[0] = 1;
 
-    pathArr[0] = 1;
+    let minHeap = new MinHeapOwn();
 
     minHeap.insert({
         distance: 0,
@@ -126,25 +120,25 @@ var countPaths = function (n, roads) {
 
     while (minHeap.size()) {
         let curr = minHeap.extract();
-        let currDist = curr.distance;
-        let currNode = curr.node;
-        if (currDist > distArr[currNode]) continue;
-        for (let [neighbor, weight] of map[currNode]) {
-            let newDist = currDist + weight;
+        let dist = curr.distance;
+        let node = curr.node;
 
+        if (distArr[node] < dist) continue;
+
+        for (let [neighbor, w] of (map[node] || [])) {
+            let newDist = dist + w;
             if (distArr[neighbor] > newDist) {
                 distArr[neighbor] = newDist;
+                ways[neighbor] = ways[node]
                 minHeap.insert({
                     distance: newDist,
                     node: neighbor
                 })
-                pathArr[neighbor] = pathArr[currNode];
             } else if (distArr[neighbor] === newDist) {
-                pathArr[neighbor] = (pathArr[neighbor] + pathArr[currNode]) % MOD;
+                ways[neighbor] = (ways[neighbor] + ways[node]) % MOD;
             }
         }
-
     }
 
-    return pathArr[n - 1]
+    return ways[n - 1]
 };
