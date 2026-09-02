@@ -13,6 +13,7 @@ var exist = function (board, word) {
         // base case
         if (word.length === count) {
             ans = true;
+            return;
         }
 
         //recursive step and process
