@@ -190,6 +190,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0091-decode-ways](https://github.com/gurjung/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/gurjung/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0118-pascals-triangle) |
+| [0131-palindrome-partitioning](https://github.com/gurjung/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/gurjung/leetcode-solutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/gurjung/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/gurjung/leetcode-solutions/tree/master/0198-house-robber) |
@@ -308,6 +309,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0091-decode-ways](https://github.com/gurjung/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/gurjung/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/gurjung/leetcode-solutions/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/gurjung/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/gurjung/leetcode-solutions/tree/master/0139-word-break) |
 | [0168-excel-sheet-column-title](https://github.com/gurjung/leetcode-solutions/tree/master/0168-excel-sheet-column-title) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
@@ -438,6 +440,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0113-path-sum-ii) |
+| [0131-palindrome-partitioning](https://github.com/gurjung/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0494-target-sum) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
 ## Bit Manipulation
