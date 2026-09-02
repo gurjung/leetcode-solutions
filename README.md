@@ -23,6 +23,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0057-insert-interval](https://github.com/gurjung/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/gurjung/leetcode-solutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0118-pascals-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0118-pascals-triangle) |
@@ -83,6 +84,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/gurjung/leetcode-solutions/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0099-recover-binary-search-tree) |
@@ -169,6 +171,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0036-valid-sudoku](https://github.com/gurjung/leetcode-solutions/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
+| [0079-word-search](https://github.com/gurjung/leetcode-solutions/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/gurjung/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
@@ -306,6 +309,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0022-generate-parentheses](https://github.com/gurjung/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/gurjung/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/gurjung/leetcode-solutions/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/gurjung/leetcode-solutions/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/gurjung/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/gurjung/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/gurjung/leetcode-solutions/tree/master/0127-word-ladder) |
@@ -438,6 +442,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0046-permutations](https://github.com/gurjung/leetcode-solutions/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/gurjung/leetcode-solutions/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/gurjung/leetcode-solutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/gurjung/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
