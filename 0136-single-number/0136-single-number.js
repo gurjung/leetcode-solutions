@@ -3,10 +3,13 @@
  * @return {number}
  */
 var singleNumber = function (nums) {
-    // xor
-    let ans = 0;
+    // Approach -> same value xor will give 0
+    // 0 ^ x => x
+
+    let result = 0;
     for (let i = 0; i < nums.length; i++) {
-        ans = ans ^ nums[i]
+        result = result ^ nums[i];
     }
-    return ans
+
+    return result
 };
