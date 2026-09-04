@@ -100,6 +100,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0112-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0113-path-sum-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/gurjung/leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0130-surrounded-regions](https://github.com/gurjung/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/gurjung/leetcode-solutions/tree/master/0133-clone-graph) |
@@ -201,6 +202,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0091-decode-ways](https://github.com/gurjung/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/gurjung/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0118-pascals-triangle) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/gurjung/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/gurjung/leetcode-solutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/gurjung/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
@@ -241,6 +243,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0112-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0113-path-sum-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/gurjung/leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
@@ -269,6 +272,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0112-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0113-path-sum-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/gurjung/leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
@@ -502,6 +506,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## DP on Trees
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 ## Boyer–Moore Majority Vote Algorithm
