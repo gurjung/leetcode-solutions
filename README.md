@@ -117,6 +117,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/gurjung/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
@@ -144,6 +145,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0785-is-graph-bipartite](https://github.com/gurjung/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/gurjung/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
@@ -249,6 +251,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0700-search-in-a-binary-search-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -276,6 +279,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0700-search-in-a-binary-search-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Graph Theory
 |  |
 | ------- |
@@ -359,6 +363,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
 ## Topological Sort
 |  |
@@ -382,6 +387,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0502-ipo](https://github.com/gurjung/leetcode-solutions/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/gurjung/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 ## Linked List
 |  |
