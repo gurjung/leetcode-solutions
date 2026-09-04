@@ -113,6 +113,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0743-network-delay-time](https://github.com/gurjung/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
@@ -251,6 +252,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0700-search-in-a-binary-search-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
@@ -280,6 +282,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0700-search-in-a-binary-search-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
@@ -647,4 +650,12 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/gurjung/leetcode-solutions/tree/master/0051-n-queens) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
