@@ -11,33 +11,34 @@
  * @return {void} Do not return anything, modify root in-place instead.
  */
 var recoverTree = function (root) {
-    // Approach -> Inorder traversal gives sorted array
-
     let first = null;
-    let sec = null;
+    let second = null;
     let prev = null;
 
-    function recur(curr) {
-        if (!curr) return;
+    function recur(node) {
+        // base condition
+        // left | root | right
+        if (!node) return;
 
-        recur(curr.left);
+        recur(node.left);
 
-        if (prev && curr.val < prev.val) {
+        // prev.val should be < node.val
+
+        if (prev && node.val < prev.val) {
             if (!first) {
-                first = prev
+                first = prev;
             }
 
-            sec = curr;
+            second = node;
         }
-
-        prev = curr
-
-        recur(curr.right);
+        
+        prev = node;
+        recur(node.right);
     }
 
     recur(root);
-    // swap the values
+    // swaping
     let temp = first.val;
-    first.val = sec.val;
-    sec.val = temp
+    first.val = second.val;
+    second.val = temp;
 };
