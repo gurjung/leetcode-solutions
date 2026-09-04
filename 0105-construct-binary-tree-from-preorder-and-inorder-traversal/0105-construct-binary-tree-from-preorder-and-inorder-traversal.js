@@ -16,30 +16,23 @@ var buildTree = function (preorder, inorder) {
     // preorder -> it gives root value
     // inorder -> left and right child positions
     // use map to store inorder values
-
-    let inorderMap = new Map();
+    let map = {}
 
     for (let i = 0; i < inorder.length; i++) {
-        inorderMap.set(inorder[i], i)
+        map[inorder[i]] = i
     }
+    let idx = 0;
 
-    let preorderIdx = 0;
+    function recur(s, e) {
+        // base condition
+        if(s > e) return null;
+        let root = preorder[idx];
+        idx++;
+        let node = new TreeNode(root);
+        let mid = map[root];
 
-    function recur(start, end) {
-        //base condition
-        if (start > end) return null;
-
-        let rootVal = preorder[preorderIdx];
-
-        preorderIdx++; // 3
-
-        let node = new TreeNode(rootVal);
-
-        let mid = inorderMap.get(rootVal);
-        
-        node.left = recur(start, mid - 1);
-        node.right = recur(mid + 1, end);
-        
+        node.left = recur(s, mid - 1);
+        node.right = recur(mid + 1, e);
         return node;
     }
 
