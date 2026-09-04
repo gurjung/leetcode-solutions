@@ -91,121 +91,68 @@ class MaxHeapOwn {
 }
 
 var leastInterval = function (tasks, n) {
-    // Approach 2 -> using heaps O(T × K log K)
-    // let maxHeap = new MaxHeapOwn();
-
-    // // create freq map and map for seating arrangement
-    // let freq = {};
-    // let allocationMap = {};
-
-    // for (let i = 0; i < tasks.length; i++) {
-    //     let char = tasks[i];
-    //     if (freq[char]) {
-    //         freq[char] = freq[char] + 1;
-    //     } else {
-    //         freq[char] = 1;
-    //         allocationMap[char] = 1;
-    //     }
-    // }
-
-    // for (let key in freq) {
-    //     let obj = {
-    //         val: freq[key],
-    //         char: key
-    //     }
-    //     maxHeap.insert(obj)
-    // }
-
-    // let seat = 1;
-
-    // while (maxHeap.size() > 0) {
-
-    //     let idleArr = [];
-
-    //     while (maxHeap.size() > 0) {
-    //         let curr = maxHeap.extract();
-    //         let val = curr.val;
-    //         let char = curr.char;
-    //         if (allocationMap[char] <= seat) {
-    //             if (val > 1) {
-    //                 maxHeap.insert({
-    //                     val: val - 1,
-    //                     char: char
-    //                 })
-    //                 allocationMap[char] = seat + n + 1; // next free seat available
-    //             }
-    //             break;
-    //         } else {
-    //             idleArr.push(curr)
-    //         }
-    //     }
-
-    //     for (let i = 0; i < idleArr.length; i++) {
-    //         maxHeap.insert(idleArr[i])
-    //     }
-    //     seat++;
-    // }
-
-    // return seat - 1;
-
-    // Approach 3 -> using heap + cooldown queue O(TlogK)
-    // k = number of distinct task types
-    // T = total slots or intervals
-
-    let freq = {};
-
-    for (let task of tasks) {
-        freq[task] = (freq[task] || 0) + 1;
-    }
-
+    // tasks = ["A","A","A","B","B","B"], n = 2
+    // _A, _B, _, _A, _B, _, _A, _B 
     let maxHeap = new MaxHeapOwn();
 
-    for (let key in freq) {
-        maxHeap.insert({
-            val: freq[key],
-            char: key
-        });
+    let freqMap = {};
+    for (let i = 0; i < tasks.length; i++) {
+        let char = tasks[i];
+        if (freqMap[char]) {
+            freqMap[char] = freqMap[char] + 1;
+        } else {
+            freqMap[char] = 1
+        }
     }
 
-    // { val, char, availableAt }
-    let cooldown = [];
+    // {A: 3, B: 3}
+    for (let key in freqMap) {
+        console.log(key, freqMap[key])
+        let obj = {
+            val: freqMap[key],
+            char: key,
+            // nextSchedule: 
+        }
+        maxHeap.insert(obj)
+    }
+    let cooldownQ = [];
+    let ans = 0;
+    while (maxHeap.size() || cooldownQ.length) {
+        ans++;
 
-    let seat = 0;
-
-    while (maxHeap.size() > 0 || cooldown.length > 0) {
-
-        seat++;
-
-        // Execute one task if possible
-        if (maxHeap.size() > 0) {
-
+        // Execute task if available
+        if (maxHeap.size()) {
             let curr = maxHeap.extract();
 
             curr.val--;
 
+            // If it still has occurrences,
+            // put it into cooldown
             if (curr.val > 0) {
-                cooldown.push({
+                cooldownQ.push({
                     val: curr.val,
                     char: curr.char,
-                    availableAt: seat + n
+                    nextTurn: ans + n
                 });
             }
         }
 
-        // Move tasks whose cooldown has finished back to heap
-        while (
-            cooldown.length > 0 &&
-            cooldown[0].availableAt === seat
+        // Move tasks whose cooldown has expired
+        if (
+            cooldownQ.length &&
+            cooldownQ[0].nextTurn === ans
         ) {
-            let task = cooldown.shift();
+            let task = cooldownQ.shift();
 
-            maxHeap.insert({
-                val: task.val,
-                char: task.char
-            });
+            if (task.val > 0) {
+                maxHeap.insert({
+                    val: task.val,
+                    char: task.char
+                });
+            }
         }
+
     }
 
-    return seat;
+    return ans
 };
-
