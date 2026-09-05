@@ -52,6 +52,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0473-matchsticks-to-square](https://github.com/gurjung/leetcode-solutions/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0494-target-sum) |
 | [0502-ipo](https://github.com/gurjung/leetcode-solutions/tree/master/0502-ipo) |
@@ -312,6 +313,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0149-max-points-on-a-line](https://github.com/gurjung/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0168-excel-sheet-column-title](https://github.com/gurjung/leetcode-solutions/tree/master/0168-excel-sheet-column-title) |
 | [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -391,6 +393,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0215-kth-largest-element-in-an-array](https://github.com/gurjung/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0502-ipo](https://github.com/gurjung/leetcode-solutions/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
