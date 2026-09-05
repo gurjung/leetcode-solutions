@@ -72,6 +72,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1584-min-cost-to-connect-all-points](https://github.com/gurjung/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/gurjung/leetcode-solutions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Binary Search
 |  |
 | ------- |
@@ -317,6 +318,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/gurjung/leetcode-solutions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Combinatorics
 |  |
 | ------- |
