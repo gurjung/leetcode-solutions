@@ -52,19 +52,41 @@ var findCircleNum = function (isConnected) {
 
     // return ans
 
-    // Approach 2 -> DFS without adj list
+    // Approach 2 -> DFS with/without adj list
 
     let visitedSet = new Set();
     let n = isConnected.length;
     let ans = 0;
+    let map = {}
+
+    for (let i = 0; i < n; i++) {
+        map[i] = [];
+    }
+
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < n; j++) {
+            if (i === j) {
+                continue;
+            }
+            if (isConnected[i][j] === 1) {
+                map[i].push(j)
+            }
+        }
+    }
 
     function recur(node) {
         // base condition
 
         visitedSet.add(node)
 
-        for (let neighbor = 0; neighbor < n; neighbor++) {
-            if (!visitedSet.has(neighbor) && isConnected[node][neighbor] === 1) {
+        // for (let neighbor = 0; neighbor < n; neighbor++) {
+        //     if (!visitedSet.has(neighbor) && isConnected[node][neighbor] === 1) {
+        //         recur(neighbor)
+        //     }
+        // }
+
+        for (let neighbor of (map[node] || [])) {
+            if (!visitedSet.has(neighbor)) {
                 recur(neighbor)
             }
         }
