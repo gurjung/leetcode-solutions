@@ -21,8 +21,8 @@ var floodFill = function (image, sr, sc, color) {
         }
     }
 
-    dx = [1, -1, 0, 0];
-    dy = [0, 0, -1, 1];
+    let dx = [1, -1, 0, 0];
+    let dy = [0, 0, -1, 1];
 
     function isValid(i, j) {
         if (i >= m || i < 0 || j >= n || j < 0) {
@@ -51,16 +51,17 @@ var floodFill = function (image, sr, sc, color) {
 
     const clone = image.map(row => [...row]);
 
-    for (let i = 0; i < m; i++) {
-        for (let j = 0; j < n; j++) {
-            if (i === sr && j === sc) {
-                if (!visitedArr[i][j]) {
-                    recur(i, j)
-                }
+    // for (let i = 0; i < m; i++) {
+    //     for (let j = 0; j < n; j++) {
+    //         if (i === sr && j === sc) {
+    //             if (!visitedArr[i][j]) {
+    //                 recur(i, j)
+    //             }
 
-            }
-        }
-    }
+    //         }
+    //     }
+    // }
+    recur(sr, sc)
 
     return clone
 
