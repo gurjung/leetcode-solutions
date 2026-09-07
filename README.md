@@ -13,6 +13,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0039-combination-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/gurjung/leetcode-solutions/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/gurjung/leetcode-solutions/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/gurjung/leetcode-solutions/tree/master/0049-group-anagrams) |
@@ -211,6 +212,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/gurjung/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/gurjung/leetcode-solutions/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/gurjung/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/gurjung/leetcode-solutions/tree/master/0055-jump-game) |
@@ -454,6 +456,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/gurjung/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0031-next-permutation](https://github.com/gurjung/leetcode-solutions/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
@@ -464,6 +467,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
@@ -687,6 +691,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
