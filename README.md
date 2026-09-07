@@ -57,6 +57,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0494-target-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0494-target-sum) |
 | [0502-ipo](https://github.com/gurjung/leetcode-solutions/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0733-flood-fill](https://github.com/gurjung/leetcode-solutions/tree/master/0733-flood-fill) |
@@ -147,6 +148,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0210-course-schedule-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/gurjung/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/gurjung/leetcode-solutions/tree/master/0684-redundant-connection) |
@@ -197,6 +199,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0200-number-of-islands](https://github.com/gurjung/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0542-01-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/gurjung/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/gurjung/leetcode-solutions/tree/master/0994-rotting-oranges) |
@@ -232,6 +235,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0746-min-cost-climbing-stairs](https://github.com/gurjung/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
