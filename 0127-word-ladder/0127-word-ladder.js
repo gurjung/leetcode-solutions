@@ -5,35 +5,37 @@
  * @return {number}
  */
 var ladderLength = function (beginWord, endWord, wordList) {
-    // "hit"
-    // ["h", "i", "t"]
-    // Approach -> shortest path + unweighted edges -> BFS
+
+    let wordSet = new Set(wordList);
+
+    if (!wordSet.has(endWord)) {
+        return 0;
+    }
 
     let q = [];
-    let wordSet = new Set(wordList);
-    if (!wordSet.has(endWord)) return 0;
 
-    q.push({ begin: beginWord, val: 1 });
+    q.push({ begin: beginWord, val: 1 })
 
     while (q.length) {
-        let { begin, val } = q.shift();
+        let curr = q.shift();
+        let { begin, val } = curr;
 
-        if (begin === endWord) return val;
+        if (begin === endWord) {
+            return val;
+        }
 
-
-        // ["h", "i", "t"]
         for (let i = 0; i < begin.length; i++) {
-            
-            let charArr = begin.split('');
-            
-            for (let c = 97; c <= 122; c++) {
-                // 25 possibilities for each char
-                let ch = String.fromCharCode(c);
 
-                if (charArr[i] === ch) continue;
+            let charArr = begin.split("");
 
-                charArr[i] = ch;
+            for (let j = 97; j <= 122; j++) {
+                let newChar = String.fromCharCode(j);
 
+                if (newChar === charArr[i]) {
+                    continue;
+                }
+
+                charArr[i] = newChar;
                 let newWord = charArr.join("");
 
                 if (wordSet.has(newWord)) {
@@ -44,6 +46,8 @@ var ladderLength = function (beginWord, endWord, wordList) {
         }
 
     }
+
     return 0;
+
 
 };
