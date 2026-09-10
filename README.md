@@ -371,6 +371,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0139-word-break](https://github.com/gurjung/leetcode-solutions/tree/master/0139-word-break) |
 | [0168-excel-sheet-column-title](https://github.com/gurjung/leetcode-solutions/tree/master/0168-excel-sheet-column-title) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0516-longest-palindromic-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
@@ -384,6 +385,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0055-jump-game](https://github.com/gurjung/leetcode-solutions/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/gurjung/leetcode-solutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/gurjung/leetcode-solutions/tree/master/0135-candy) |
+| [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0502-ipo](https://github.com/gurjung/leetcode-solutions/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
@@ -483,6 +485,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
+| [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/gurjung/leetcode-solutions/tree/master/0735-asteroid-collision) |
@@ -709,6 +712,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/gurjung/leetcode-solutions/tree/master/0907-sum-of-subarray-minimums) |
