@@ -80,6 +80,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1584-min-cost-to-connect-all-points](https://github.com/gurjung/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2104-sum-of-subarray-ranges](https://github.com/gurjung/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/gurjung/leetcode-solutions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Binary Search
 |  |
@@ -488,6 +489,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0907-sum-of-subarray-minimums](https://github.com/gurjung/leetcode-solutions/tree/master/0907-sum-of-subarray-minimums) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/gurjung/leetcode-solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/gurjung/leetcode-solutions/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
+| [2104-sum-of-subarray-ranges](https://github.com/gurjung/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Recursion
 |  |
 | ------- |
@@ -710,6 +712,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/gurjung/leetcode-solutions/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/gurjung/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Kosaraju's Algorithm
 |  |
 | ------- |
