@@ -26,6 +26,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/gurjung/leetcode-solutions/tree/master/0079-word-search) |
+| [0084-largest-rectangle-in-histogram](https://github.com/gurjung/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0118-pascals-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0118-pascals-triangle) |
@@ -483,6 +484,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/gurjung/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0094-binary-tree-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
@@ -712,6 +714,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/gurjung/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
@@ -725,4 +728,8 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/gurjung/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/gurjung/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
