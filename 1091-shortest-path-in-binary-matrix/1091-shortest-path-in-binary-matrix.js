@@ -11,14 +11,14 @@ var shortestPathBinaryMatrix = function (grid) {
     if (grid[0][0] === 1) return -1;
     if (grid[m - 1][n - 1] === 1) return -1;
 
-    let result = [];
+    // let result = [];
     let visitedArr = [];
 
     for (let i = 0; i < m; i++) {
-        result[i] = [];
+        // result[i] = [];
         visitedArr[i] = [];
         for (let j = 0; j < n; j++) {
-            result[i][j] = -1;
+            // result[i][j] = -1;
             visitedArr[i][j] = false;
         }
     }
@@ -29,6 +29,8 @@ var shortestPathBinaryMatrix = function (grid) {
     let dy = [0, 0, -1, 1, -1, 1, -1, 1];
 
     let q = [{ r: 0, c: 0, dist: 1 }]
+
+    visitedArr[0][0] = true;
 
     function isValid(i, j) {
         if (i >= m || i < 0 || j >= n || j < 0) {
@@ -41,7 +43,10 @@ var shortestPathBinaryMatrix = function (grid) {
         let curr = q.shift();
         let { r, c, dist } = curr;
 
-        result[r][c] = dist;
+        if (r === m - 1 && c === n - 1) {
+            return dist;
+        }
+        // result[r][c] = dist;
 
         for (let k = 0; k < 8; k++) {
             let row = r + dx[k];
@@ -54,5 +59,5 @@ var shortestPathBinaryMatrix = function (grid) {
         }
     }
 
-    return result[m - 1][n - 1]
+    return -1;
 };
