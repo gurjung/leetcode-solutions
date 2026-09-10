@@ -3,6 +3,11 @@
  * @return {number}
  */
 var largestRectangleArea = function (heights) {
+    // Approach -> find anything smaller on left and on right both at particular index
+    // example -> at index 2 we have 5. we will check smaller on left that is index 1 (1) and 
+    // on right we have smaller than 5 at index 4 (2)
+    // width = index 4 - index 1 - 1 => 2 * heights[i] => area
+
     // find nsl
     // heights = [2,1,5,6,2,3]
     // nsl = [-1, -1, 1, 2, 1, 4]
