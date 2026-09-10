@@ -95,7 +95,6 @@ class MinHeapOwn {
 var findTheCity = function (n, edges, distanceThreshold) {
     // djiktra's algo
 
-
     // adjacency list
 
     let map = {};
@@ -109,7 +108,7 @@ var findTheCity = function (n, edges, distanceThreshold) {
         map[u].push([v, w]);
         map[v].push([u, w]); // bidirectional
     }
-    let result = new Array(n).fill(Infinity);
+    let result = new Array(n);
 
     for (let i = 0; i < n; i++) {
 
@@ -143,7 +142,6 @@ var findTheCity = function (n, edges, distanceThreshold) {
             }
 
         }
-        console.log(distArr, "DEBUG")
         let count = 0;
         for (let j = 0; j < distArr.length; j++) {
 
