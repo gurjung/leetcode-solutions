@@ -70,6 +70,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0735-asteroid-collision](https://github.com/gurjung/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0746-min-cost-climbing-stairs](https://github.com/gurjung/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
+| [0827-making-a-large-island](https://github.com/gurjung/leetcode-solutions/tree/master/0827-making-a-large-island) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/gurjung/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/gurjung/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/gurjung/leetcode-solutions/tree/master/0907-sum-of-subarray-minimums) |
@@ -139,6 +140,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0785-is-graph-bipartite](https://github.com/gurjung/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/gurjung/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
+| [0827-making-a-large-island](https://github.com/gurjung/leetcode-solutions/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/gurjung/leetcode-solutions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/gurjung/leetcode-solutions/tree/master/1020-number-of-enclaves) |
@@ -174,6 +176,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0785-is-graph-bipartite](https://github.com/gurjung/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/gurjung/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/gurjung/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
+| [0827-making-a-large-island](https://github.com/gurjung/leetcode-solutions/tree/master/0827-making-a-large-island) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/gurjung/leetcode-solutions/tree/master/0994-rotting-oranges) |
@@ -192,6 +195,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0721-accounts-merge](https://github.com/gurjung/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/gurjung/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
+| [0827-making-a-large-island](https://github.com/gurjung/leetcode-solutions/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/gurjung/leetcode-solutions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/gurjung/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
@@ -225,6 +229,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0542-01-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/gurjung/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
+| [0827-making-a-large-island](https://github.com/gurjung/leetcode-solutions/tree/master/0827-making-a-large-island) |
 | [0994-rotting-oranges](https://github.com/gurjung/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/gurjung/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
