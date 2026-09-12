@@ -364,6 +364,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/gurjung/leetcode-solutions/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/gurjung/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0149-max-points-on-a-line](https://github.com/gurjung/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0168-excel-sheet-column-title](https://github.com/gurjung/leetcode-solutions/tree/master/0168-excel-sheet-column-title) |
@@ -527,6 +528,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/gurjung/leetcode-solutions/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/gurjung/leetcode-solutions/tree/master/0025-reverse-nodes-in-k-group) |
+| [0050-powx-n](https://github.com/gurjung/leetcode-solutions/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
 ## Ternary Search
