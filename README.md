@@ -372,6 +372,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
+| [1922-count-good-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/1922-count-good-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/gurjung/leetcode-solutions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Combinatorics
@@ -531,6 +532,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0050-powx-n](https://github.com/gurjung/leetcode-solutions/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
+| [1922-count-good-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/1922-count-good-numbers) |
 ## Ternary Search
 |  |
 | ------- |
