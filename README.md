@@ -27,6 +27,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0063-unique-paths-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0078-subsets](https://github.com/gurjung/leetcode-solutions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/gurjung/leetcode-solutions/tree/master/0079-word-search) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/gurjung/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/gurjung/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0090-subsets-ii) |
@@ -94,6 +95,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0033-search-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/gurjung/leetcode-solutions/tree/master/0035-search-insert-position) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/gurjung/leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
