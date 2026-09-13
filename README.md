@@ -408,6 +408,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/gurjung/leetcode-solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1143-longest-common-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/gurjung/leetcode-solutions/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/gurjung/leetcode-solutions/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Greedy
 |  |
 | ------- |
@@ -560,6 +561,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0473-matchsticks-to-square](https://github.com/gurjung/leetcode-solutions/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0494-target-sum) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/gurjung/leetcode-solutions/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -571,6 +573,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0338-counting-bits](https://github.com/gurjung/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0473-matchsticks-to-square](https://github.com/gurjung/leetcode-solutions/tree/master/0473-matchsticks-to-square) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/gurjung/leetcode-solutions/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Bracket Sequences
 |  |
 | ------- |
