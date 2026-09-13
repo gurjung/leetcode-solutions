@@ -95,65 +95,52 @@ class MinHeapOwn {
 
 
 var findCheapestPrice = function (n, flights, src, dst, k) {
-    const minHeap = new MinHeapOwn();
-
-    // let resArr = new Array(n).fill(+Infinity);
-    let resArr = [];
-
-    for (let i = 0; i < n; i++) {
-        resArr[i] = [];
-        for (let j = 0; j <= k + 1; j++) {
-            resArr[i][j] = Infinity;
-        }
-    }
-
-    resArr[src][0] = 0;
-
-    minHeap.insert({
-        cost: 0,
-        city: src,
-        stops: 0
-    })
-
-    // build adjacency list
-
-    let map = {}
+    // approach 1 -> Dijktra's algo
+    let map = {};
 
     for (let i = 0; i < n; i++) {
         map[i] = [];
     }
 
     for (let i = 0; i < flights.length; i++) {
-        let u = flights[i][0];
-        let v = flights[i][1];
-        let w = flights[i][2];
-
+        let [u, v, w] = flights[i];
         map[u].push([v, w]);
     }
 
+    let costArr = new Array(n).fill(Infinity);
+    for (let i = 0; i < n; i++) {
+        costArr[i] = [];
+        for (let j = 0; j <= k + 1; j++) {
+            costArr[i][j] = Infinity;
+        }
+    }
+
+    costArr[src][0] = 0;
+
+    let minHeap = new MinHeapOwn();
+    minHeap.insert({
+        node: src,
+        cost: 0,
+        stops: 0
+    })
+
     while (minHeap.size()) {
-        let { cost, city, stops } = minHeap.extract();
+        let curr = minHeap.extract();
+        let { node, cost, stops } = curr;
 
-        // If destination reached, return cost
-        if (city === dst) return cost;
-
-        // Don't expand if we've used too many stops
+        if (node === dst) return cost;
         if (stops > k) continue;
 
-        // Look at all neighbors
-        for (let neighbor of map[city]) {
-            // Calculate newCost and newStops
-            let nextCity = neighbor[0];
-            let nextCityPrice = neighbor[1];
+        let newStops = stops + 1;
 
-            let newCost = cost + nextCityPrice;
-            let newStops = stops + 1;
-
-            if (newCost < resArr[nextCity][newStops]) {
-                resArr[nextCity][newStops] = newCost;
+        for (let neighbor of (map[node] || [])) {
+            let [v, w] = neighbor;
+            let newCost = cost + w;
+            if (newCost < costArr[v][newStops]) {
+                costArr[v][newStops] = newCost;
                 minHeap.insert({
+                    node: v,
                     cost: newCost,
-                    city: nextCity,
                     stops: newStops
                 })
             }
@@ -162,5 +149,4 @@ var findCheapestPrice = function (n, flights, src, dst, k) {
     }
 
     return -1;
-
 };
