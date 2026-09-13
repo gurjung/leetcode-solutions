@@ -4,6 +4,7 @@
  * @param {number} k
  * @return {number}
  */
+
 class MinHeapOwn {
     constructor() {
         this.heap = [];
@@ -85,10 +86,22 @@ class MinHeapOwn {
 
 
 }
-var networkDelayTime = function (times, n, k) {
-    // approach -> Dijktra's algo
 
-    // adjacency list
+var networkDelayTime = function (times, n, k) {
+    // dijktra's algo
+    // 1 to n or 0 to n - 1
+    let distArr = new Array(n + 1).fill(Infinity);
+    distArr[k] = 0;
+
+    let minHeap = new MinHeapOwn();
+
+    minHeap.insert({
+        node: k,
+        distance: 0
+    })
+
+    // adj list
+
     let map = {};
 
     for (let i = 1; i <= n; i++) {
@@ -100,44 +113,32 @@ var networkDelayTime = function (times, n, k) {
         map[u].push([v, w]);
     }
 
-    let distArr = new Array(n + 1).fill(Infinity); // because it is 1 indexed
-    distArr[k] = 0;
-
-    let minHeap = new MinHeapOwn();
-    minHeap.insert({
-        distance: 0,
-        node: k
-    })
+    console.log(map, 'map')
 
     while (minHeap.size()) {
         let curr = minHeap.extract();
-        let dist = curr.distance;
-        let node = curr.node;
-        if (distArr[node] < dist) continue;
-        for (let [neighbor, w] of (map[node] || [])) {
-            let newDist = dist + w;
-            if (distArr[neighbor] > newDist) {
-                distArr[neighbor] = newDist;
+        let { node, distance } = curr;
+        if (distArr[node] < distance) continue;
+        for (let neighbor of (map[node] || [])) {
+            let [v, w] = neighbor;
+            let newDist = distance + w;
+            if (distArr[v] > newDist) {
+                distArr[v] = newDist;
                 minHeap.insert({
-                    distance: newDist,
-                    node: neighbor
+                    node: v,
+                    distance: newDist
                 })
             }
-
         }
     }
-
     let result = 0;
-    for (let i = 1; i <= n; i++) {
-        if (distArr[i] === Infinity) {
-            return -1;
+    for(let i = 1; i <= n; i++) {
+        if(distArr[i] === Infinity) {
+            return -1
         }
-
         result = Math.max(result, distArr[i])
+
     }
 
     return result
-
-
-
 };
