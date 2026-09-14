@@ -93,52 +93,54 @@ class MinHeapOwn {
 var countPaths = function (n, roads) {
     const MOD = 1e9 + 7;
 
+    // distArr
+    let distArr = new Array(n).fill(Infinity);
+    distArr[0] = 0;
+
+    // paths Array
+    let pathArr = new Array(n).fill(0);
+    pathArr[0] = 1
+    // adj list
+
     let map = {};
 
     for (let i = 0; i < n; i++) {
-        map[i] = [];
+        map[i] = []
     }
 
     for (let i = 0; i < roads.length; i++) {
         let [u, v, w] = roads[i];
         map[u].push([v, w]);
-        map[v].push([u, w]);
+        map[v].push([u, w])
     }
 
-    let distArr = new Array(n).fill(Infinity);
-    distArr[0] = 0;
-
-    let ways = new Array(n).fill(0);
-    ways[0] = 1;
-
     let minHeap = new MinHeapOwn();
-
     minHeap.insert({
-        distance: 0,
-        node: 0
+        node: 0,
+        distance: 0
     })
 
     while (minHeap.size()) {
         let curr = minHeap.extract();
-        let dist = curr.distance;
-        let node = curr.node;
+        let { node, distance } = curr;
 
-        if (distArr[node] < dist) continue;
+        if (distArr[node] < distance) continue;
 
-        for (let [neighbor, w] of (map[node] || [])) {
-            let newDist = dist + w;
-            if (distArr[neighbor] > newDist) {
-                distArr[neighbor] = newDist;
-                ways[neighbor] = ways[node]
+        for (let neighbor of (map[node] || [])) {
+            let [v, w] = neighbor;
+            let newDist = distance + w;
+            if (distArr[v] > newDist) {
+                pathArr[v] = pathArr[node];
+                distArr[v] = newDist;
                 minHeap.insert({
-                    distance: newDist,
-                    node: neighbor
+                    node: v,
+                    distance: newDist
                 })
-            } else if (distArr[neighbor] === newDist) {
-                ways[neighbor] = (ways[neighbor] + ways[node]) % MOD;
+            } else if (distArr[v] === newDist) {
+                pathArr[v] = (pathArr[v] + pathArr[node]) % MOD;
             }
         }
     }
 
-    return ways[n - 1]
+    return pathArr[n-1]
 };
