@@ -378,6 +378,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
+| [0836-rectangle-overlap](https://github.com/gurjung/leetcode-solutions/tree/master/0836-rectangle-overlap) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
 | [1922-count-good-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/1922-count-good-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -700,6 +701,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/gurjung/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
+| [0836-rectangle-overlap](https://github.com/gurjung/leetcode-solutions/tree/master/0836-rectangle-overlap) |
 ## Euclidean Algorithm
 |  |
 | ------- |
