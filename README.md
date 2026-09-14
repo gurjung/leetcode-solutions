@@ -489,6 +489,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0141-linked-list-cycle](https://github.com/gurjung/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 ## Divide and Conquer
@@ -519,6 +520,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0042-trapping-rain-water](https://github.com/gurjung/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/gurjung/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0234-palindrome-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
@@ -537,6 +539,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0144-binary-tree-preorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurjung/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/gurjung/leetcode-solutions/tree/master/0155-min-stack) |
+| [0234-palindrome-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
@@ -554,6 +557,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0025-reverse-nodes-in-k-group](https://github.com/gurjung/leetcode-solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/gurjung/leetcode-solutions/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [1922-count-good-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/1922-count-good-numbers) |
 ## Ternary Search
