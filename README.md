@@ -495,6 +495,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0237-delete-node-in-a-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0328-odd-even-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -529,6 +530,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Sweep Line
 |  |
 | ------- |
