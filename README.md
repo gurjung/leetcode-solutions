@@ -285,6 +285,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/gurjung/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/gurjung/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/gurjung/leetcode-solutions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Tree
 |  |
 | ------- |
@@ -416,6 +417,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/gurjung/leetcode-solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1143-longest-common-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/gurjung/leetcode-solutions/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/gurjung/leetcode-solutions/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Greedy
 |  |
@@ -428,6 +430,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0502-ipo](https://github.com/gurjung/leetcode-solutions/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Hash Table
 |  |
 | ------- |
@@ -533,6 +536,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0876-middle-of-the-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Sweep Line
 |  |
 | ------- |
