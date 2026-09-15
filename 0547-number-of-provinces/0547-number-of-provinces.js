@@ -3,102 +3,54 @@
  * @return {number}
  */
 var findCircleNum = function (isConnected) {
-    // Approach 1 -> BFS
-    // [[1, 1, 0]]
-    // [[1, 1, 0]]
-    // [[0, 0, 1]]
+    let provinces = 0;
 
-    // adjacency list
-    // let map = {}
-    // let n = isConnected.length;
+    // [
+    //  [1,1,0],
+    //  [1,1,0],
+    //  [0,0,1]
+    // ]
 
-    // for (let i = 0; i < n; i++) {
-    //     map[i] = [];
-    // }
+    // adj list
+    let map = {};
+    let m = isConnected.length;
+    let n = isConnected[0].length;
 
-    // for (let i = 0; i < n; i++) {
-    //     for (let j = 0; j < n; j++) {
-    //         if (i === j) {
-    //             continue;
-    //         }
-    //         if (isConnected[i][j] === 1) {
-    //             map[i].push(j)
-    //         }
-    //     }
-    // }
-
-    // let visitedSet = new Set();
-    // let ans = 0;
-
-    // for (let city = 0; city < n; city++) {
-    //     if (visitedSet.has(city)) {
-    //         continue;
-    //     }
-    //     ans++;
-
-    //     let q = [city];
-    //     visitedSet.add(city);
-
-    //     while (q.length) {
-    //         let curr = q.shift();
-    //         for (let neighbor of (map[curr] || [])) {
-    //             if (!visitedSet.has(neighbor)) {
-    //                 visitedSet.add(neighbor)
-    //                 q.push(neighbor)
-    //             }
-    //         }
-    //     }
-    // }
-
-    // return ans
-
-    // Approach 2 -> DFS with/without adj list
-
-    let visitedSet = new Set();
-    let n = isConnected.length;
-    let ans = 0;
-    let map = {}
-
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < m; i++) {
         map[i] = [];
     }
 
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < m; i++) {
         for (let j = 0; j < n; j++) {
-            if (i === j) {
-                continue;
-            }
-            if (isConnected[i][j] === 1) {
+            if (i !== j && isConnected[i][j] === 1) {
                 map[i].push(j)
             }
+
         }
     }
 
+    let visitedArr = new Array(m).fill(false);
+
+
+    let ans = 0;
+
     function recur(node) {
-        // base condition
-
-        visitedSet.add(node)
-
-        // for (let neighbor = 0; neighbor < n; neighbor++) {
-        //     if (!visitedSet.has(neighbor) && isConnected[node][neighbor] === 1) {
-        //         recur(neighbor)
-        //     }
-        // }
+        visitedArr[node] = true;
 
         for (let neighbor of (map[node] || [])) {
-            if (!visitedSet.has(neighbor)) {
+            if (!visitedArr[neighbor]) {
                 recur(neighbor)
             }
         }
-
     }
-
-    for (let city = 0; city < n; city++) {
-        if (!visitedSet.has(city)) {
-            recur(city);
+    for (let i = 0; i < m; i++) {
+        if (!visitedArr[i]) {
+            recur(i);
             ans++;
         }
     }
 
     return ans
+
+
 };
