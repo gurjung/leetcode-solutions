@@ -89,6 +89,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/gurjung/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1584-min-cost-to-connect-all-points](https://github.com/gurjung/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1765-map-of-highest-peak](https://github.com/gurjung/leetcode-solutions/tree/master/1765-map-of-highest-peak) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/gurjung/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/gurjung/leetcode-solutions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
@@ -192,6 +193,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1091-shortest-path-in-binary-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/gurjung/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1765-map-of-highest-peak](https://github.com/gurjung/leetcode-solutions/tree/master/1765-map-of-highest-peak) |
 ## Union-Find
 |  |
 | ------- |
@@ -242,6 +244,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1020-number-of-enclaves](https://github.com/gurjung/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1765-map-of-highest-peak](https://github.com/gurjung/leetcode-solutions/tree/master/1765-map-of-highest-peak) |
 ## Dynamic Programming
 |  |
 | ------- |
