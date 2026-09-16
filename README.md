@@ -449,6 +449,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0141-linked-list-cycle](https://github.com/gurjung/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0149-max-points-on-a-line](https://github.com/gurjung/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
+| [0160-intersection-of-two-linked-lists](https://github.com/gurjung/leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
@@ -500,6 +501,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0141-linked-list-cycle](https://github.com/gurjung/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/gurjung/leetcode-solutions/tree/master/0148-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/gurjung/leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
@@ -538,6 +540,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0141-linked-list-cycle](https://github.com/gurjung/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/gurjung/leetcode-solutions/tree/master/0148-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/gurjung/leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
