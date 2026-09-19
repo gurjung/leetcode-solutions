@@ -10,47 +10,20 @@
  * @param {number} k
  * @return {ListNode}
  */
-var reverseKGroup = function (head, k) {
-
-    // // Approach 1 -> recursion
-
-    // // check whether k nodes exist or not
-    // let temp = head, count = 0;
-    // while (count < k) {
-    //     if (temp === null) {
-    //         return head;
-    //     }
-    //     temp = temp.next;
-    //     count++;
-    // }
-    // // send temp as head in recursive call
-    // let prevNode = reverseKGroup(temp, k);
-    // // swap k group
-    // let curr = head;
-    // count = 0;
-    // while (count < k) {
-    //     let n = curr.next;
-    //     curr.next = prevNode;
-    //     prevNode = curr;
-    //     curr = n;
-    //     count++;
-    // }
-    // return prevNode;
-
-    // Approach 2 -> Iterative solution (same as swap nodes in pair solution, here size is k )
-
+var reverseKGroup = function(head, k) {
     if (!head) return head;
 
-    let currLeft = head;
     let size = k;
+    let currLeft = head;
     let currRight = null;
-    let nextLeft = null;
     let prevLeft = null;
-    let ans = null;
+    let nextLeft = null;
+    let res = null; // new head which needs to return as an final answer
 
-    function reverse(head, times) {
-        let curr = head;
+    function reverse(currHead, times) {
+        let curr = currHead;
         let prev = null;
+
         while (times > 0) {
             let temp = curr.next;
             curr.next = prev;
@@ -62,46 +35,38 @@ var reverseKGroup = function (head, k) {
     }
 
     while (1) {
+
         currRight = currLeft;
-
         for (let i = 0; i < size - 1; i++) {
-            if (currRight === null) {
-                break;
-            }
-
+            if (!currRight) break;
             currRight = currRight.next;
         }
 
         if (currRight) {
-            nextLeft = currRight.next; // saving for future left position
-
+            // reverse
+            nextLeft = currRight.next;
             reverse(currLeft, size);
-
             if (prevLeft) {
                 prevLeft.next = currRight;
             }
-
-            prevLeft = currLeft; // store currLeft value in prevLeft for future use
-
+            prevLeft = currLeft;
             currLeft = nextLeft;
-
-            if (ans === null) {
-                ans = currRight;
+            if (res === null) {
+                res = currRight;
             }
-
         } else {
-            // everything ends now
             if (prevLeft) {
-                prevLeft.next = currLeft; // because there is no currRight
+                prevLeft.next = currLeft;
+            }
+            // if there is only one node as an input
+            if (res === null) {
+                res = currLeft;
             }
 
-
-            if (ans === null) {
-                ans = currLeft; // if only node case then currLeft === currRight
-            }
             break;
         }
+
     }
 
-    return ans;
+    return res
 };
