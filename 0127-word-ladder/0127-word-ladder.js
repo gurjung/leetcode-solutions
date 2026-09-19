@@ -44,4 +44,6 @@ var ladderLength = function (beginWord, endWord, wordList) {
         }
     }
 
+    return 0;
+
 };
