@@ -3,14 +3,15 @@
  * @return {number[]}
  */
 var eventualSafeNodes = function (graph) {
-    // adj list if already given
+    // outgoing degree
+
+    // indegree
+    // adj list
+
     let n = graph.length;
-
-    //outDegreeArr = [2,2,1,1,1,0,0]
+    let reverseGraph = {}
     let outDegreeArr = [];
-    let result = [];
-
-    let reverseGraph = {};
+    let res = [];
 
     for (let i = 0; i < n; i++) {
         reverseGraph[i] = [];
@@ -23,25 +24,25 @@ var eventualSafeNodes = function (graph) {
             reverseGraph[neighbor].push(i);
         }
     }
+    
+    let q = [];
 
-    let q = []
-
-    for (let i = 0; i < outDegreeArr.length; i++) {
+    for (let i = 0; i < n; i++) {
         if (outDegreeArr[i] === 0) {
-            q.push(i)
+            q.push(i);
         }
     }
 
     while (q.length) {
         let curr = q.shift();
-        result.push(curr);
+        res.push(curr);
         for (let neighbor of (reverseGraph[curr] || [])) {
             outDegreeArr[neighbor]--;
             if (outDegreeArr[neighbor] === 0) {
-                q.push(neighbor)
+                q.push(neighbor);
             }
         }
     }
 
-    return result.sort((a, b) => a - b);
+    return res.sort((a, b) => a - b)
 };
