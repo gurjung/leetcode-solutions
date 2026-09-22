@@ -30,24 +30,36 @@ var findMedianSortedArrays = function (nums1, nums2) {
 
     // return ans;
 
-    let merged = [];
+    // Approach 2 -> two pointers
+
+    let mergedArr = [];
+    let m = nums1.length;
+    let n = nums2.length;
     let p1 = 0, p2 = 0;
 
-    while (p1 < nums1.length && p2 < nums2.length) {
+    while (p1 < m && p2 < n) {
         if (nums1[p1] <= nums2[p2]) {
-            merged.push(nums1[p1++]);
+            mergedArr.push(nums1[p1]);
+            p1++;
         } else {
-            merged.push(nums2[p2++]);
+            mergedArr.push(nums2[p2]);
+            p2++;
         }
     }
-    while (p1 < nums1.length) merged.push(nums1[p1++]);
-    while (p2 < nums2.length) merged.push(nums2[p2++]);
+    while (p1 < m) {
+        mergedArr.push(nums1[p1]);
+        p1++;
+    }
+    while (p2 < n) {
+        mergedArr.push(nums2[p2]);
+        p2++;
+    }
 
     // Direct O(1) index lookup - no search needed
-    const mid = Math.floor(merged.length / 2);
-    if (merged.length % 2 === 1) {
-        return merged[mid];
+    const mid = Math.floor(mergedArr.length / 2);
+    if (mergedArr.length % 2 === 1) {
+        return mergedArr[mid];
     }
-    return (merged[mid - 1] + merged[mid]) / 2;
+    return (mergedArr[mid - 1] + mergedArr[mid]) / 2;
 
 };
