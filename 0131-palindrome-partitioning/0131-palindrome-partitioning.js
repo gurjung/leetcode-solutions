@@ -4,6 +4,7 @@
  */
 var partition = function (s) {
     let result = [];
+
     let temp = [];
 
     function isPalindrome(str) {
@@ -17,28 +18,28 @@ var partition = function (s) {
             l++;
             r--;
         }
+
         return true;
     }
 
-    function recur(remS, temp) {
+    function recur(input, temp) {
         // base case
-        if (remS.length === 0) {
+
+        if (input.length === 0) {
             result.push([...temp])
             return;
         }
 
-        //recursive step and process
-        for (let i = 1; i <= remS.length; i++) {
-            let leftString = remS.substring(0, i);
-            if (!isPalindrome(leftString)) {
-                continue;
-            }
-            temp.push(leftString)
-            recur(remS.substring(i), temp)
+        for (let i = 1; i <= input.length; i++) {
+            let left = input.substring(0, i);
+            if (!isPalindrome(left)) continue
+            temp.push(left);
+            recur(input.substring(i), temp)
             temp.pop();
         }
+
     }
 
     recur(s, temp)
-    return result
+    return result;
 };
