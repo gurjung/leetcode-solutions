@@ -6,41 +6,46 @@
 var exist = function (board, word) {
     let m = board.length;
     let n = board[0].length;
-
     let ans = false;
 
-    function recur(x, y, count) {
-        // base case
-        if (word.length === count) {
+    function isValid(i, j) {
+        if (i < 0 || i >= m || j < 0 || j >= n) {
+            return false;
+        }
+        return true;
+    }
+
+    function recur(i, j, idx) {
+        // base case 
+        if (word.length === idx) {
             ans = true;
             return;
         }
 
-        //recursive step and process
-        let original = board[x][y];
-        board[x][y] = '#'; // because i already seen it
+        let original = board[i][j];
+        board[i][j] = "#";
+        // process and recursive step
+        // move in 4 directions
 
-        // check all directions now
-        // top
-        if (y > 0 && board[x][y - 1] === word[count]) {
-            recur(x, y - 1, count + 1)
+        //top
+        if (isValid(i - 1, j) && board[i - 1][j] === word[idx]) {
+            recur(i - 1, j, idx + 1)
+        }
+        //bottom
+        if (isValid(i + 1, j) && board[i + 1][j] === word[idx]) {
+            recur(i + 1, j, idx + 1)
         }
         //left
-        if (x > 0 && board[x - 1][y] === word[count]) {
-            recur(x - 1, y, count + 1)
+        if (isValid(i, j - 1) && board[i][j - 1] === word[idx]) {
+            recur(i, j - 1, idx + 1)
         }
         //right
-        if (x < m - 1 && board[x + 1][y] === word[count]) {
-            recur(x + 1, y, count + 1)
-        }
-        // bottom
-        if (y < n - 1 && board[x][y + 1] === word[count]) {
-            recur(x, y + 1, count + 1)
+        if (isValid(i, j + 1) && board[i][j + 1] === word[idx]) {
+            recur(i, j + 1, idx + 1)
         }
 
-        board[x][y] = original;
+        board[i][j] = original
     }
-
 
     for (let i = 0; i < m; i++) {
         for (let j = 0; j < n; j++) {
