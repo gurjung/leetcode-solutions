@@ -16,6 +16,7 @@ var exist = function (board, word) {
     }
 
     function recur(i, j, idx) {
+        if (ans) return; // pruning
         // base case 
         if (word.length === idx) {
             ans = true;
