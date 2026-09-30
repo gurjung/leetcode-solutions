@@ -398,6 +398,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurjung/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0168-excel-sheet-column-title](https://github.com/gurjung/leetcode-solutions/tree/master/0168-excel-sheet-column-title) |
 | [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
+| [0282-expression-add-operators](https://github.com/gurjung/leetcode-solutions/tree/master/0282-expression-add-operators) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0836-rectangle-overlap](https://github.com/gurjung/leetcode-solutions/tree/master/0836-rectangle-overlap) |
@@ -427,6 +428,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0139-word-break](https://github.com/gurjung/leetcode-solutions/tree/master/0139-word-break) |
 | [0168-excel-sheet-column-title](https://github.com/gurjung/leetcode-solutions/tree/master/0168-excel-sheet-column-title) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0282-expression-add-operators](https://github.com/gurjung/leetcode-solutions/tree/master/0282-expression-add-operators) |
 | [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0516-longest-palindromic-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
@@ -627,6 +629,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0090-subsets-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/gurjung/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
+| [0282-expression-add-operators](https://github.com/gurjung/leetcode-solutions/tree/master/0282-expression-add-operators) |
 | [0473-matchsticks-to-square](https://github.com/gurjung/leetcode-solutions/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0494-target-sum) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
