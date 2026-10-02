@@ -97,6 +97,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1584-min-cost-to-connect-all-points](https://github.com/gurjung/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/gurjung/leetcode-solutions/tree/master/1765-map-of-highest-peak) |
+| [1901-find-a-peak-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurjung/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/gurjung/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/gurjung/leetcode-solutions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
@@ -122,6 +123,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/gurjung/leetcode-solutions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/gurjung/leetcode-solutions/tree/master/1539-kth-missing-positive-number) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1901-find-a-peak-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -261,6 +263,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [1091-shortest-path-in-binary-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/gurjung/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/gurjung/leetcode-solutions/tree/master/1765-map-of-highest-peak) |
+| [1901-find-a-peak-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
