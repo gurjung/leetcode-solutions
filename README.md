@@ -60,6 +60,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0312-burst-balloons](https://github.com/gurjung/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0410-split-array-largest-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/gurjung/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -114,6 +115,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0410-split-array-largest-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0778-swim-in-rising-water](https://github.com/gurjung/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/gurjung/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -291,6 +293,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0338-counting-bits](https://github.com/gurjung/leetcode-solutions/tree/master/0338-counting-bits) |
+| [0410-split-array-largest-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0473-matchsticks-to-square](https://github.com/gurjung/leetcode-solutions/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0494-target-sum) |
@@ -451,6 +454,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0134-gas-station](https://github.com/gurjung/leetcode-solutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/gurjung/leetcode-solutions/tree/master/0135-candy) |
 | [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
+| [0410-split-array-largest-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0502-ipo](https://github.com/gurjung/leetcode-solutions/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
@@ -687,6 +691,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/gurjung/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
+| [0410-split-array-largest-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1109-corporate-flight-bookings](https://github.com/gurjung/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
 ## Graph Coloring
