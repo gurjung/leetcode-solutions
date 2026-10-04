@@ -899,4 +899,8 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/gurjung/leetcode-solutions/tree/master/0037-sudoku-solver) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/gurjung/leetcode-solutions/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
