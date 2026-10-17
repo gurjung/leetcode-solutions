@@ -431,6 +431,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0022-generate-parentheses](https://github.com/gurjung/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/gurjung/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/gurjung/leetcode-solutions/tree/master/0072-edit-distance) |
+| [0076-minimum-window-substring](https://github.com/gurjung/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/gurjung/leetcode-solutions/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/gurjung/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/gurjung/leetcode-solutions/tree/master/0115-distinct-subsequences) |
@@ -475,6 +476,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0037-sudoku-solver](https://github.com/gurjung/leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/gurjung/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/gurjung/leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/gurjung/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/gurjung/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/gurjung/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
@@ -899,6 +901,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/gurjung/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/gurjung/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/gurjung/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 ## Monotonic Queue
 |  |
