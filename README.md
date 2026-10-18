@@ -60,6 +60,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0239-sliding-window-maximum](https://github.com/gurjung/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0303-range-sum-query-immutable](https://github.com/gurjung/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0312-burst-balloons](https://github.com/gurjung/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -712,6 +713,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/gurjung/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/gurjung/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1109-corporate-flight-bookings](https://github.com/gurjung/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
@@ -900,6 +902,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/gurjung/leetcode-solutions/tree/master/0155-min-stack) |
+| [0303-range-sum-query-immutable](https://github.com/gurjung/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0901-online-stock-span](https://github.com/gurjung/leetcode-solutions/tree/master/0901-online-stock-span) |
 ## Queue
 |  |
