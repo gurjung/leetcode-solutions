@@ -6,6 +6,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0031-next-permutation](https://github.com/gurjung/leetcode-solutions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
@@ -470,6 +471,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/gurjung/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gurjung/leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/gurjung/leetcode-solutions/tree/master/0036-valid-sudoku) |
