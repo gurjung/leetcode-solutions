@@ -10,23 +10,23 @@
  * @param {number} n
  * @return {ListNode}
  */
-var removeNthFromEnd = function (head, n) {
-    let dummyNode = new ListNode();
-    dummyNode.next = head;
+var removeNthFromEnd = function(head, n) {
+    // use fast and slow pointer approach
+    let sentinelNode = new ListNode();
+    sentinelNode.next = head;
 
-    let slow = dummyNode;
-    let fast = dummyNode;
+    let slow = sentinelNode;
+    let fast = sentinelNode;
 
-    for (let i = 0; i < n; i++) {
+    for(let i = 0; i < n; i++) {
         fast = fast.next;
     }
 
-    while (fast && fast.next) {
-        fast = fast.next;
+    while(fast && fast.next) {
         slow = slow.next;
+        fast = fast.next;
     }
-  
-    slow.next = slow.next.next;
 
-    return dummyNode.next;
+    slow.next = slow.next.next;
+    return sentinelNode.next;
 };
