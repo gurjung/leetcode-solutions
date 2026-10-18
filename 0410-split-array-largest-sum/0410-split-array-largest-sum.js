@@ -4,39 +4,46 @@
  * @return {number}
  */
 var splitArray = function (nums, k) {
-    // if k = 1 then minsum = sum of all elements
-    // similar to allocate books, painter partition
-    let low = Math.min(...nums);
-    let high = nums.reduce((acc, curr) => acc + curr, 0) // k = 1 worst case
-    let ans = 0
+    // similar to painter partition problem
 
-    function isPossible(splits, maxSum, arr) {
+    let low = Math.min(...nums);
+    // for k=1 worst case -> whole array sum
+    let high = nums.reduce((acc, curr) => acc + curr, 0)
+    
+    let ans = high;
+
+    function isPossible(splits, maxSum) {
+        let n = 1; // minimum 1 split
         let sum = 0;
-        let n = 1; // n is no of splits required
-        for (let i = 0; i < arr.length; i++) {
-            if (arr[i] > maxSum) return false;
-            if (sum + arr[i] <= maxSum) {
-                sum = sum + arr[i]
+
+        for (let i = 0; i < nums.length; i++) {
+            if (nums[i] > maxSum) return false;
+
+            if (sum + nums[i] <= maxSum) {
+                sum = sum + nums[i];
             } else {
                 n++;
-                sum = arr[i]
+                sum = nums[i];
             }
         }
+
         if (n > splits) return false;
         return true;
     }
 
     while (low <= high) {
         let mid = low + Math.floor((high - low) / 2);
-        // assuming mid is maxSum
-        let isValid = isPossible(k, mid, nums)
-        if (isValid) {
+
+        let possible = isPossible(k, mid);
+
+        if (possible) {
+            // if possible then find smaller than this
             ans = mid;
             high = mid - 1;
         } else {
-            low = mid + 1
+            low = mid + 1;
         }
     }
-    return ans
 
+    return ans;
 };
