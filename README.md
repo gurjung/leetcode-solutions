@@ -75,6 +75,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0502-ipo](https://github.com/gurjung/leetcode-solutions/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0518-coin-change-ii) |
+| [0523-continuous-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/gurjung/leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -418,6 +419,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0282-expression-add-operators](https://github.com/gurjung/leetcode-solutions/tree/master/0282-expression-add-operators) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
+| [0523-continuous-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0836-rectangle-overlap](https://github.com/gurjung/leetcode-solutions/tree/master/0836-rectangle-overlap) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
 | [1922-count-good-numbers](https://github.com/gurjung/leetcode-solutions/tree/master/1922-count-good-numbers) |
@@ -498,6 +500,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
+| [0523-continuous-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -718,6 +721,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0238-product-of-array-except-self](https://github.com/gurjung/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/gurjung/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
+| [0523-continuous-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1094-car-pooling](https://github.com/gurjung/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1109-corporate-flight-bookings](https://github.com/gurjung/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
@@ -936,4 +940,8 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/gurjung/leetcode-solutions/tree/master/0056-merge-intervals) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0523-continuous-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 <!---LeetCode Topics End-->
