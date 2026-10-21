@@ -451,6 +451,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0282-expression-add-operators](https://github.com/gurjung/leetcode-solutions/tree/master/0282-expression-add-operators) |
 | [0402-remove-k-digits](https://github.com/gurjung/leetcode-solutions/tree/master/0402-remove-k-digits) |
+| [0424-longest-repeating-character-replacement](https://github.com/gurjung/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0721-accounts-merge](https://github.com/gurjung/leetcode-solutions/tree/master/0721-accounts-merge) |
@@ -499,6 +500,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0160-intersection-of-two-linked-lists](https://github.com/gurjung/leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/gurjung/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -924,6 +926,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0076-minimum-window-substring](https://github.com/gurjung/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/gurjung/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0424-longest-repeating-character-replacement](https://github.com/gurjung/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 ## Monotonic Queue
 |  |
 | ------- |
