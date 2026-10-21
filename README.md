@@ -83,6 +83,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/gurjung/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0724-find-pivot-index](https://github.com/gurjung/leetcode-solutions/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/gurjung/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/gurjung/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/gurjung/leetcode-solutions/tree/master/0739-daily-temperatures) |
@@ -731,6 +732,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0410-split-array-largest-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0523-continuous-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/gurjung/leetcode-solutions/tree/master/0724-find-pivot-index) |
 | [1094-car-pooling](https://github.com/gurjung/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1109-corporate-flight-bookings](https://github.com/gurjung/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/gurjung/leetcode-solutions/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
