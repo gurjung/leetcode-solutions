@@ -4,45 +4,36 @@
  * @return {number}
  */
 var shipWithinDays = function (weights, days) {
-    // approach -> Binary search
-
+    // binary search
     let low = Math.max(...weights);
-    let high = weights.reduce((acc, curr) => acc + curr, 0);
-    let ans = high;
-
-    // high = sum of all weights means if only 1 day is given then this will be ans
-
-    function isValidWeight(capacity) {
-        let currDays = 1;
+    let high = weights.reduce((acc, curr) => acc + curr, 0); // worst case
+    // [3,2,2,4,1,4], days = 3
+    // l = 4, h = 7, m = 5
+    // 
+    function isPossible(x) {
         let currSum = 0;
-        // 3
+        let count = 1;
         for (let i = 0; i < weights.length; i++) {
             currSum = currSum + weights[i];
-
-            if (currSum > capacity) {
-                currDays++;
+            if (currSum > x) {
+                count++;
                 currSum = weights[i];
             }
-
         }
 
-        if (currDays <= days) {
-            return true;
-        } else {
-            return false;
-        }
+        if (count > days) return false;
+        return true;
     }
-
+    let ans = high;
     while (low <= high) {
         let mid = low + Math.floor((high - low) / 2);
-        if (isValidWeight(mid)) {
-            ans = mid;
+        let possible = isPossible(mid);
+        if (possible) {
+            ans = Math.min(ans, mid);
             high = mid - 1;
         } else {
             low = mid + 1;
         }
-
     }
-
-    return ans;
+    return ans
 };
