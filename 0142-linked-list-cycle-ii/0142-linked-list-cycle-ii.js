@@ -11,21 +11,26 @@
  * @return {ListNode}
  */
 var detectCycle = function (head) {
+    // fast and slow pointer approach
+    if (!head) return head;
+
     let slow = head;
     let fast = head;
     let p1 = head;
 
     while (fast && fast.next) {
-        slow = slow.next;
         fast = fast.next.next;
-        if (slow === fast) {
+        slow = slow.next;
 
-            while (p1 !== slow) {
+        if (fast === slow) {
+            // cycle detected
+
+            while (slow !== p1) {
+                slow = slow.next;
                 p1 = p1.next;
-                slow = slow.next
             }
 
-            return p1
+            return slow;
 
         }
     }
