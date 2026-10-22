@@ -3,12 +3,10 @@
  * @return {number}
  */
 var maximalRectangle = function (matrix) {
-    // appraoch -> for every row make it similar to Largest Rectangle in Histogram problem
     let r = matrix.length;
     let c = matrix[0].length;
 
-    let heights = new Array(c).fill(0);
-    // [0, 0, 0, 0, 0]
+    let nums = new Array(c).fill(0);
     let result = 0;
 
     function findLargestRectangle(arr) {
@@ -17,7 +15,6 @@ var maximalRectangle = function (matrix) {
         let n = arr.length;
 
         let nsl = [];
-
 
         for (let i = 0; i < n; i++) {
             while (stack.length && arr[stack[stack.length - 1]] >= arr[i]) {
@@ -31,7 +28,7 @@ var maximalRectangle = function (matrix) {
 
             stack.push(i)
         }
-        console.log(nsl, "NSL")
+
         let nsr = [];
         stack = [];
         for (let i = n - 1; i >= 0; i--) {
@@ -47,8 +44,6 @@ var maximalRectangle = function (matrix) {
             stack.push(i)
         }
 
-        console.log(nsr, "NSR")
-
         for (let i = 0; i < n; i++) {
             let width = nsr[i] - nsl[i] - 1;
             let area = arr[i] * width;
@@ -58,17 +53,21 @@ var maximalRectangle = function (matrix) {
         return ans;
     }
 
+    // iterate through matrix and fill nums array for each row and check largest area in each row
     for (let i = 0; i < r; i++) {
         for (let j = 0; j < c; j++) {
             if (matrix[i][j] === "1") {
-                heights[j] = heights[j] + 1;
+                nums[j] = nums[j] + 1
             } else {
-                heights[j] = 0
+                nums[j] = 0;
             }
         }
 
-        // for every heights corresponding to one value of i we need to calculate result similar to histogram problem and then return max of all results as an final answer
-        let rectangle = findLargestRectangle(heights);
+        // for row 1 => nums = [1, 0, 1, 0, 0];
+        // for row 2 => nums = [2, 0, 2, 1, 1];
+        // for row 3 => nums = [3, 1, 3, 2, 2];
+        let rectangle = findLargestRectangle(nums);
+        console.log(nums, rectangle, i, "DEBUG")
         result = Math.max(rectangle, result)
     }
 
