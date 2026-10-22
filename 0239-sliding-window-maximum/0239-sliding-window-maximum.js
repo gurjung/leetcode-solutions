@@ -4,34 +4,33 @@
  * @return {number[]}
  */
 var maxSlidingWindow = function (nums, k) {
+    let q = []; // store indexes
 
     let left = 0;
     let right = 0;
-    let dq = []; // store indexes
+
     let ans = [];
+    // q = [1, -1]
+    // ans = [1]
     while (right < nums.length) {
-        while (dq.length && nums[dq[dq.length - 1]] < nums[right]) {
-            dq.pop();
+        while (q.length && nums[q[q.length - 1]] < nums[right]) {
+            q.pop();
         }
 
-        dq.push(right);
-
-        if (dq[0] < left) {
-            // out of window
-            dq.shift();
+        if(q[0] < left) {
+            q.shift();
         }
 
-        let width = right - left + 1;
+        q.push(right)
 
-        if (width === k) {
+        if (right - left + 1 === k) {
             // valid window
-            let val = nums[dq[0]];
-            ans.push(val)
-            left++;
-        }
+            let val = nums[q[0]];
+            ans.push(val);
+            left++
 
+        }
         right++;
     }
-
-    return ans;
+    return ans
 };
