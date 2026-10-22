@@ -925,10 +925,12 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0155-min-stack](https://github.com/gurjung/leetcode-solutions/tree/master/0155-min-stack) |
 | [0303-range-sum-query-immutable](https://github.com/gurjung/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0901-online-stock-span](https://github.com/gurjung/leetcode-solutions/tree/master/0901-online-stock-span) |
+| [0933-number-of-recent-calls](https://github.com/gurjung/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
 ## Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/gurjung/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0933-number-of-recent-calls](https://github.com/gurjung/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
 ## Sliding Window
 |  |
 | ------- |
@@ -945,6 +947,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/gurjung/leetcode-solutions/tree/master/0901-online-stock-span) |
+| [0933-number-of-recent-calls](https://github.com/gurjung/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
 ## Dancing Links
 |  |
 | ------- |
