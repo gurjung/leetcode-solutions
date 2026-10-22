@@ -3,38 +3,25 @@
  * @return {boolean}
  */
 var isValid = function (s) {
-    //  s = "([)]" => 
-    // stack = [([]
-    // s = "()[]{}" => 
-    // stack = []
-
     let stack = [];
-
-    let map = {
+    // s = "([])"
+    // stack = [(, [, ]
+    let lookup = {
         "(": ")",
-        "[": "]",
-        "{": "}"
+        "{": "}",
+        "[": "]"
     }
-
     for (let i = 0; i < s.length; i++) {
-        let val = s[i];
-
-        if (val === "(" || val === "[" || val === "{") {
-            stack.push(val);
+        if (s[i] === "(" || s[i] === "{" || s[i] === "[") {
+            // opening brackets case
+            stack.push(s[i])
         } else {
-            if (stack.length) {
-                let curr = stack.pop();
-                if (map[curr] !== val) {
-                    return false
-                }
-            } else {
+            let val = stack.pop();
+            if (s[i] !== lookup[val]) {
                 return false;
             }
         }
     }
-
-    if (stack.length === 0) return true;
-
+    if (!stack.length) return true;
     return false;
-
 };
