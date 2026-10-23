@@ -5,7 +5,7 @@ var MyCircularQueue = function (k) {
     this.arr = new Array(k);
     this.capacity = k;
     this.front = 0;
-    this.rear = -1;
+    this.rear = k - 1;
     this.size = 0;
 };
 
@@ -38,7 +38,7 @@ MyCircularQueue.prototype.deQueue = function () {
     // Optional: reset pointers when the queue becomes empty
     if (this.size === 0) {
         this.front = 0;
-        this.rear = -1;
+        this.rear = this.capacity - 1;
     }
 
     return true;
