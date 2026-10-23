@@ -3,38 +3,33 @@
  * @return {number}
  */
 var evalRPN = function (tokens) {
-    // stack
     let stack = [];
-    // [2, 1, ]
-    // let operatorsMap = {
-    //     "*": *,
-    //     "+": +,
-    //     "-": -,
-    //     "/": /
-    // };
+    // [2, 1]
+    function isOperator(x) {
+        let validOp = ["+", "-", "*", "/"];
+        return validOp.includes(x)
+    }
 
     for (let i = 0; i < tokens.length; i++) {
-        // if it is operator -> 
-        if (tokens[i] === "*" || tokens[i] === "+" || tokens[i] === "-" || tokens[i] === "/") {
+        if (isOperator(tokens[i])) {
+            let s = stack.pop();
+            let f = stack.pop();
             let op = tokens[i];
-            secondOp = stack.pop();
-            firstOp = stack.pop();
-            let val;
+            let res;
             if (op === "+") {
-                val = firstOp + secondOp
+                res = f + s
             } else if (op === "-") {
-                val = firstOp - secondOp;
+                res = f - s
             } else if (op === "*") {
-                val = firstOp * secondOp;
+                res = f * s;
             } else {
-                val = Math.trunc(firstOp / secondOp)
+                res = Math.trunc(f / s)
             }
-            stack.push(val)
+            stack.push(res);
         } else {
             stack.push(Number(tokens[i]))
         }
-
     }
-
+    
     return stack[stack.length - 1]
 };
