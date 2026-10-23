@@ -83,6 +83,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0560-subarray-sum-equals-k](https://github.com/gurjung/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0622-design-circular-queue](https://github.com/gurjung/leetcode-solutions/tree/master/0622-design-circular-queue) |
+| [0641-design-circular-deque](https://github.com/gurjung/leetcode-solutions/tree/master/0641-design-circular-deque) |
 | [0721-accounts-merge](https://github.com/gurjung/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/gurjung/leetcode-solutions/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/gurjung/leetcode-solutions/tree/master/0733-flood-fill) |
@@ -575,6 +576,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0237-delete-node-in-a-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0328-odd-even-linked-list) |
 | [0622-design-circular-queue](https://github.com/gurjung/leetcode-solutions/tree/master/0622-design-circular-queue) |
+| [0641-design-circular-deque](https://github.com/gurjung/leetcode-solutions/tree/master/0641-design-circular-deque) |
 | [0876-middle-of-the-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Divide and Conquer
@@ -934,6 +936,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0155-min-stack](https://github.com/gurjung/leetcode-solutions/tree/master/0155-min-stack) |
 | [0303-range-sum-query-immutable](https://github.com/gurjung/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0622-design-circular-queue](https://github.com/gurjung/leetcode-solutions/tree/master/0622-design-circular-queue) |
+| [0641-design-circular-deque](https://github.com/gurjung/leetcode-solutions/tree/master/0641-design-circular-deque) |
 | [0901-online-stock-span](https://github.com/gurjung/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/gurjung/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
 ## Queue
@@ -941,6 +944,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/gurjung/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0622-design-circular-queue](https://github.com/gurjung/leetcode-solutions/tree/master/0622-design-circular-queue) |
+| [0641-design-circular-deque](https://github.com/gurjung/leetcode-solutions/tree/master/0641-design-circular-deque) |
 | [0933-number-of-recent-calls](https://github.com/gurjung/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
 ## Sliding Window
 |  |
