@@ -6,29 +6,32 @@
 var combinationSum2 = function (candidates, target) {
     let result = [];
     let temp = [];
-    let n = candidates.length;
     candidates.sort((a, b) => a - b);
-    // candidates = [10,1,2,7,6,1,5], target = 8
-    // arr = [1,1,2,5,6,7,10] and target = 8
+    let n = candidates.length;
 
-    function recur(remSum, temp, p) {
-        // base conditions
-        if (remSum === 0) {
-            result.push([...temp]);
-            return result;
+    function recur(p, t) {
+        // base condition
+        if (t === 0) {
+            result.push([...temp])
+            return;
         }
-
-        // recursive step and process
+        // [10,1,2,7,6,1,5]
+        // [1,1,2,5,6,7,10]
+        // process and recursive steps
+        // two choices // take it or skip
         for (let i = p; i < n; i++) {
-            if (remSum < candidates[i]) continue;
-            if (i > p && candidates[i] === candidates[i - 1]) continue;
+            if (t < candidates[i]) continue;
 
-            temp.push(candidates[i]);
-            recur(remSum - candidates[i], temp, i + 1);
+            if(i > p && candidates[i] === candidates[i - 1]) continue;
+
+            temp.push(candidates[i])
+            recur(i + 1, t - candidates[i]);
+
             temp.pop();
         }
+
     }
 
-    recur(target, temp, 0);
-    return result;
+    recur(0, target)
+    return result
 };
