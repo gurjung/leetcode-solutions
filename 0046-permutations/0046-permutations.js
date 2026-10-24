@@ -3,35 +3,37 @@
  * @return {number[][]}
  */
 var permute = function (nums) {
-
-    // approach -> swap based solution
-
     let result = [];
     let temp = [];
     let n = nums.length;
+    // [1,2,3]
+    // [1,2,3], [1,2,3]
 
     function swap(arr, src, des) {
         let val = arr[src];
         arr[src] = arr[des];
         arr[des] = val;
     }
-    // [1,2]
-    function recur(temp, p) {
-        // base case
+
+    function recur(p) {
+        // base condition
+
         if (temp.length === n) {
             result.push([...temp]);
-            return result;
+            return;
         }
-        // recursive step and process
+
+        //process and recursive steps
         for (let i = p; i < n; i++) {
-            temp.push(nums[i]);
-            swap(nums, i, p);
-            recur(temp, p + 1);
+            temp.push(nums[i])
+            swap(nums, i, p)
+            recur(p + 1);
             temp.pop();
             swap(nums, i, p);
         }
+
     }
 
-    recur(temp, 0);
-    return result;
+    recur(0)
+    return result
 };
