@@ -12,19 +12,25 @@
  * @return {TreeNode}
  */
 var lowestCommonAncestor = function (root, p, q) {
+    if (!root) return root;
 
-    function recur(node, p, q) {
-        if (!node) return null;
-        if (node === p || node === q) return node;
+    function recur(curr) {
+        if (!curr) return null;
 
-        let path1 = recur(node.left, p, q);
-        let path2 = recur(node.right, p, q);
+        if (curr === p || curr === q) {
+            return curr;
+        }
 
-        if (path1 && path2) return node;
-        if (path1) return path1;
-        if (path2) return path2;
+        let left = recur(curr.left);
+        let right = recur(curr.right);
+
+        if (left && right) return curr;
+
+        if (left) return left;
+
+        if (right) return right;
+
     }
 
-    return recur(root, p, q)
-
+    return recur(root)
 };
