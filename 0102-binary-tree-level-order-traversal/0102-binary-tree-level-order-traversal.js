@@ -11,27 +11,28 @@
  * @return {number[][]}
  */
 var levelOrder = function (root) {
-    if (!root) return []
-    // code here
-    let q = [];
+    // for level order traversal we use queue (BFS)
 
+    if (!root) return [];
+
+    let q = [];
+    let result = [];
     q.push(root);
 
-    let ans = [];
-
+    // [[3], [9,20]]
+    // [9,20]
     while (q.length) {
-        // let curr = q.shift();
         let temp = [];
         let size = q.length;
-        while (size > 0) {
-            let curr = q.shift();
-            temp.push(curr.val);
-            curr.left && q.push(curr.left);
-            curr.right && q.push(curr.right);
-            size--;
+        for (let i = 0; i < size; i++) {
+            let node = q.shift();
+            temp.push(node.val);
+            node.left && q.push(node.left);
+            node.right && q.push(node.right);
         }
-        ans.push(temp);
+        result.push(temp);
     }
 
-    return ans;
+    return result
+
 };
