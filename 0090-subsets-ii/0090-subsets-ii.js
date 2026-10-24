@@ -6,26 +6,29 @@ var subsetsWithDup = function (nums) {
     let result = [];
     let temp = [];
     let n = nums.length;
-    nums.sort((a, b) => a - b);
-    //[1,2,3]
-    function recur(temp, p) {
+    // [1,2,2], [1,2]
+    // []
+    function recur(p) {
         // base condition
-        if (p === n) {
-            result.push([...temp])
+        if (p >= n) {
+            result.push([...temp]);
             return;
         }
 
-        // recursive step and process
-        // two choices
+        // process and recursive step
+        // take it
         temp.push(nums[p]);
-        recur(temp, p + 1);
+        recur(p + 1);
+
+        // skip
         temp.pop();
-        while (p < nums.length && nums[p] === nums[p + 1]) {
-            p++
+        while (nums[p] === nums[p + 1]) {
+            p++;
         }
-        recur(temp, p + 1);
+        recur(p + 1)
+
     }
 
-    recur(temp, 0);
-    return result;
+    recur(0)
+    return result
 };
