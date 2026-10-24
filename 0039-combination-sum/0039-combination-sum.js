@@ -6,25 +6,28 @@
 var combinationSum = function (candidates, target) {
     let result = [];
     let temp = [];
-    let n = candidates.length;
 
-    function recur(remSum, temp, p) {
-        // base conditions
-        if (remSum === 0) {
-            result.push([...temp]);
-            return result;
+    function recur(p, t) {
+        // base condition
+        if (t < 0 || p >= candidates.length) {
+            return;
+        }
+        if (t === 0) {
+            result.push([...temp])
+            return;
         }
 
-        // recursive step and process
-        for (let i = p; i < n; i++) {
-            if (remSum < candidates[i]) continue;
+        // process and recursive steps
+        // two choices
+        // take it
+        temp.push(candidates[p])
+        recur(p, t - candidates[p])
+        // skip
+        temp.pop();
+        recur(p + 1, t)
 
-            temp.push(candidates[i]);
-            recur(remSum - candidates[i], temp, i);
-            temp.pop();
-        }
     }
 
-    recur(target, temp, 0);
-    return result;
+    recur(0, target)
+    return result
 };
