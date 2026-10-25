@@ -21,15 +21,27 @@ var rightSideView = function (root) {
     while (q.length) {
         let size = q.length;
 
+        // for (let i = 0; i < size; i++) {
+        //     let curr = q.shift();
+        //     let diff = size - i;
+        //     if (diff === 1) {
+        //         ans.push(curr.val)
+        //     }
+        //     curr.left && q.push(curr.left);
+        //     curr.right && q.push(curr.right);
+        // }
+
+        // another approach -> we need rightmost value
+
+        let rightmostVal = null;
         for (let i = 0; i < size; i++) {
             let curr = q.shift();
-            let diff = size - i;
-            if (diff === 1) {
-                ans.push(curr.val)
-            }
+            rightmostVal = curr.val;
             curr.left && q.push(curr.left);
             curr.right && q.push(curr.right);
         }
+
+        ans.push(rightmostVal)
 
     }
 
