@@ -13,19 +13,22 @@
  * @return {_Node}
  */
 var connect = function (root) {
-
     if (!root) return root;
 
-    if (root.left) {
-        root.left.next = root.right;
+    function recur(curr) {
+        if (!curr) return; // Base case
+        if (curr.left) {
+            curr.left.next = curr.right;
+        }
+
+        if (curr.right && curr.next) {
+            curr.right.next = curr.next.left;
+        }
+
+        recur(curr.left);
+        recur(curr.right);
     }
 
-    if (root.right && root.next) {
-        root.right.next = root.next.left
-    }
-
-    connect(root.left);
-    connect(root.right);
-
+    recur(root);
     return root;
 };
