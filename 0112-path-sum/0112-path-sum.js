@@ -12,24 +12,21 @@
  * @return {boolean}
  */
 var hasPathSum = function (root, targetSum) {
-    if (!root) return false;
+    if (!root) return false
 
-    function recur(node, remSum) {
-        // base condition
+    function recur(curr, sum) {
+        if (!curr) return false;
 
-        if (!node) return false;
-
-        if (!node.left && !node.right) {
-            if (remSum - node.val === 0) return true
-            return false;
+        sum = sum + curr.val
+        if (!curr.left && !curr.right) {
+            return sum === targetSum
         }
 
-        let left = recur(node.left, remSum - node.val);
-        let right = recur(node.right, remSum - node.val);
+        let leftPath = recur(curr.left, sum);
+        let rightPath = recur(curr.right, sum);
 
-        return left || right;
+        return leftPath || rightPath
     }
 
-    return recur(root, targetSum)
-
+    return recur(root, 0)
 };
