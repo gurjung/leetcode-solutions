@@ -12,28 +12,29 @@
  * @return {boolean}
  */
 var isSubtree = function (root, subRoot) {
-
+    // serialize tree
     function serialized(node) {
-
-        let temp = "";
-
+        let temp = ""
         function recur(curr) {
-            // base condition
+            // preorder traversal = root/left/right
+
             if (!curr) {
-                temp = temp + "-#"
+                temp = temp + "-#";
                 return;
             }
-            // preorder -> root / left / right
-            temp = temp + "-" + curr.val
+
+            temp = temp + "-" + curr.val;
             recur(curr.left);
             recur(curr.right);
+
         }
+
         recur(node)
         return temp;
 
     }
 
     let hashRoot = serialized(root);
-    let hashSubRoot = serialized(subRoot);
-    return hashRoot.includes(hashSubRoot)
+    let hashSubroot = serialized(subRoot);
+    return hashRoot.includes(hashSubroot)
 };
