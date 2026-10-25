@@ -11,18 +11,16 @@
  * @return {boolean}
  */
 var isSymmetric = function (root) {
-    if (!root) return true;
+    if (!root) return root;
 
-    function recur(node1, node2) {
-        if (!node1 && !node2) return true;
-        if (!node1 || !node2) return false;
-        if (node1.val !== node2.val) return false;
+    function recur(nodeA, nodeB) {
+        if (!nodeA && !nodeB) return true;
+        if (!nodeA || !nodeB) return false;
+        if (nodeA.val !== nodeB.val) return false;
 
-        let path1 = recur(node1.left, node2.right);
-        let path2 = recur(node1.right, node2.left);
-
+        let path1 = recur(nodeA.left, nodeB.right);
+        let path2 = recur(nodeA.right, nodeB.left);
         return path1 && path2;
-
     }
 
     return recur(root.left, root.right)
