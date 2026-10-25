@@ -11,22 +11,17 @@
  * @return {boolean}
  */
 var isValidBST = function (root) {
-    let min = -Infinity;
-    let max = +Infinity;
 
-    function recur(node, low, high) {
-        // base condition
-        if(!node) return true;
+    function recur(curr, low, high) {
+        if (!curr) return true;
 
-        if(node.val <= low || node.val >= high) {
-            return false
-        }
+        if (curr.val >= high || curr.val <= low) return false
 
-        let left = recur(node.left, low, node.val);
-        let right = recur(node.right, node.val, high);
-
-        return left && right
+        let leftPath = recur(curr.left, low, curr.val);
+        let rightPath = recur(curr.right, curr.val, high);
+        
+        return leftPath && rightPath;
     }
 
-    return recur(root, min, max)
+    return recur(root, -Infinity, Infinity)
 };
