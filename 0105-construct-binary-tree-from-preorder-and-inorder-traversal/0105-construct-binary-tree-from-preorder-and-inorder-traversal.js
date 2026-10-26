@@ -12,30 +12,30 @@
  * @return {TreeNode}
  */
 var buildTree = function (preorder, inorder) {
-    // preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
-    // preorder -> it gives root value
-    // inorder -> left and right child positions
-    // use map to store inorder values
-    let map = {}
-
+    // preorder -> gives root values
+    // inorder -> gives left and right child positions
+    // map to store inorder values
+    let map = {};
+    // {9: 0, 3: 1}
     for (let i = 0; i < inorder.length; i++) {
-        map[inorder[i]] = i
+        let val = inorder[i]
+        map[val] = i
     }
-    let idx = 0;
-
-    function recur(s, e) {
+    let idx = 0
+    function recur(start, end) {
         // base condition
-        if(s > e) return null;
-        let root = preorder[idx];
-        idx++;
-        let node = new TreeNode(root);
-        let mid = map[root];
+        if (start > end) return null
 
-        node.left = recur(s, mid - 1);
-        node.right = recur(mid + 1, e);
-        return node;
+        let node = preorder[idx];
+        idx++;
+        let root = new TreeNode(node);
+
+        let mid = map[node];
+
+        root.left = recur(start, mid - 1);
+        root.right = recur(mid + 1, end)
+        return root;
     }
 
     return recur(0, inorder.length - 1)
-
 };
