@@ -11,58 +11,53 @@
  * @return {number[][]}
  */
 var verticalTraversal = function (root) {
-    // we will store col, row, val in nodes array
+    let map = new Map();
 
-    let nodes = [];
+    // sorting -> columnwise , rowwise , value wise
 
-    // [[-1,1,9],[0,0,3]...] 
-    function recur(col, row, curr) {
-        // base condition
+    function recur(curr, row, col) {
         if (!curr) return;
 
-        //left
-        recur(col - 1, row + 1, curr.left);
-        //current 
-        nodes.push([col, row, curr.val])
-        //right
-        recur(col + 1, row + 1, curr.right)
+        if (!map.has(col)) {
+            map.set(col, []);
+        }
+
+        let existingVal = map.get(col);
+
+        existingVal.push([row, curr.val]);
+
+        recur(curr.left, row + 1, col - 1)
+
+        recur(curr.right, row + 1, col + 1);
 
     }
 
-    recur(0, 0, root)
+    recur(root, 0, 0);
 
-    console.log(nodes, "DEBUG")
-    // sort the nodes array based on col then row then val
+    let keysArr = [...map.keys()].sort((a, b) => a - b);
+    // columnwise sorting done
 
-    nodes.sort((a, b) => {
+    let ans = [];
+    for (let col of keysArr) {
+        let nodes = map.get(col)
+        // [ [ 1, 9 ] ] BEFORE
+        nodes.sort((a, b) => {
+            if (a[0] !== b[0]) {
+                return a[0] - b[0]; // rowwise sorting
+            }
+            return a[1] - b[1]; // value wise
+        })
+        // [ [ 1, 9 ] ] nodes
 
-        //column
-        if (a[0] !== b[0]) {
-            return a[0] - b[0];
+
+        let temp = [];
+
+        for (let i = 0; i < nodes.length; i++) {
+            temp.push(nodes[i][1]);
         }
 
-        //row
-        if (a[1] !== b[1]) {
-            return a[1] - b[1];
-        }
-
-        //val
-        if (a[2] !== b[2]) {
-            return a[2] - b[2];
-        }
-    })
-
-    console.log(nodes, "SORTEDNODES")
-    let result = [];
-    let prevCol = null;
-
-    for (let [col, row, val] of nodes) {
-        if (col !== prevCol) {
-            result.push([]);
-            prevCol = col;
-        }
-        result[result.length - 1].push(val)
+        ans.push(temp);
     }
+    return ans
 
-    return result;
 };
