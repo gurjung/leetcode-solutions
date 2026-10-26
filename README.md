@@ -62,6 +62,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0238-product-of-array-except-self](https://github.com/gurjung/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/gurjung/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/gurjung/leetcode-solutions/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/gurjung/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0312-burst-balloons](https://github.com/gurjung/leetcode-solutions/tree/master/0312-burst-balloons) |
@@ -129,6 +130,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0162-find-peak-element](https://github.com/gurjung/leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/gurjung/leetcode-solutions/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
@@ -440,6 +442,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0168-excel-sheet-column-title](https://github.com/gurjung/leetcode-solutions/tree/master/0168-excel-sheet-column-title) |
 | [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
 | [0224-basic-calculator](https://github.com/gurjung/leetcode-solutions/tree/master/0224-basic-calculator) |
+| [0268-missing-number](https://github.com/gurjung/leetcode-solutions/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/gurjung/leetcode-solutions/tree/master/0282-expression-add-operators) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0509-fibonacci-number](https://github.com/gurjung/leetcode-solutions/tree/master/0509-fibonacci-number) |
@@ -527,6 +530,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0169-majority-element](https://github.com/gurjung/leetcode-solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/gurjung/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/gurjung/leetcode-solutions/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/gurjung/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/gurjung/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
@@ -563,6 +567,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0215-kth-largest-element-in-an-array](https://github.com/gurjung/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/gurjung/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/gurjung/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/gurjung/leetcode-solutions/tree/master/0268-missing-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/gurjung/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/gurjung/leetcode-solutions/tree/master/0435-non-overlapping-intervals) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -716,6 +721,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0136-single-number](https://github.com/gurjung/leetcode-solutions/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/gurjung/leetcode-solutions/tree/master/0191-number-of-1-bits) |
+| [0268-missing-number](https://github.com/gurjung/leetcode-solutions/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/gurjung/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0473-matchsticks-to-square](https://github.com/gurjung/leetcode-solutions/tree/master/0473-matchsticks-to-square) |
 | [0996-number-of-squareful-arrays](https://github.com/gurjung/leetcode-solutions/tree/master/0996-number-of-squareful-arrays) |
