@@ -3,18 +3,15 @@
  * @return {number}
  */
 var hammingWeight = function (n) {
-    // Brian Kernighan's Algorithm
-    // let ans = 0;
-    // while (n > 0) {
-    //     ans++
-    //     n = n & (n - 1)
-    // }
-    // return ans;
-
-    // Approach 2 ->
-    let result = 0;
+    // 00001011
+    // 11111111
+    // 00001011
+    let ans = 0
     for (let i = 0; i <= 31; i++) {
-        if ((1 << i) & n) result++;
+        if ((1 << i) & n) {
+            ans++;
+        }
     }
-    return result
+
+    return ans
 };
