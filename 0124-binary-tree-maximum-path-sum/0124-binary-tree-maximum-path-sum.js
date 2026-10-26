@@ -11,23 +11,24 @@
  * @return {number}
  */
 var maxPathSum = function (root) {
+    //
+    let ans = -Infinity;
 
-    let maxSum = -Infinity;
+    function recur(node) {
 
-    function recur(curr) {
-        // base condition
-        if (!curr) return 0;
+        if (!node) return 0
+        //explore left
+        let left = Math.max(0, recur(node.left));
+        let right = Math.max(0, recur(node.right));
 
-        let left = Math.max(0, recur(curr.left));
-        let right = Math.max(0, recur(curr.right));
+        let temp = left + node.val + right;
 
-        let temp = left + curr.val + right;
+        ans = Math.max(ans, temp); // maxSum so far
 
-        maxSum = Math.max(maxSum, temp);
+        return node.val + Math.max(left, right); // have to choose one path among left or right while returning
 
-        return curr.val + Math.max(left, right)
     }
 
-    recur(root)
-    return maxSum
+    recur(root);
+    return ans
 };
