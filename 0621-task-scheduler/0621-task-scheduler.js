@@ -91,68 +91,60 @@ class MaxHeapOwn {
 }
 
 var leastInterval = function (tasks, n) {
-    // tasks = ["A","A","A","B","B","B"], n = 2
-    // _A, _B, _, _A, _B, _, _A, _B 
+    // {A: 2, B:2, C:1 , D: 1} , n = 1
+    // count = 2;
+    // prev= [{A: 1}]
+    // v 
     let maxHeap = new MaxHeapOwn();
+    let freq = {};
 
-    let freqMap = {};
     for (let i = 0; i < tasks.length; i++) {
-        let char = tasks[i];
-        if (freqMap[char]) {
-            freqMap[char] = freqMap[char] + 1;
+        if (freq[tasks[i]]) {
+            freq[tasks[i]] = freq[tasks[i]] + 1
         } else {
-            freqMap[char] = 1
+            freq[tasks[i]] = 1
         }
     }
 
-    // {A: 3, B: 3}
-    for (let key in freqMap) {
-        console.log(key, freqMap[key])
+    for (let k in freq) {
         let obj = {
-            val: freqMap[key],
-            char: key,
-            // nextSchedule: 
+            val: freq[k],
+            char: k
         }
         maxHeap.insert(obj)
     }
-    let cooldownQ = [];
-    let ans = 0;
-    while (maxHeap.size() || cooldownQ.length) {
-        ans++;
 
-        // Execute task if available
+    let cooldownq = [];
+    let count = 0;
+
+    while (maxHeap.size() || cooldownq.length) {
+        count++;
         if (maxHeap.size()) {
             let curr = maxHeap.extract();
-
             curr.val--;
 
-            // If it still has occurrences,
-            // put it into cooldown
+            // push task to cooldown queue is it has some frequency/value
             if (curr.val > 0) {
-                cooldownQ.push({
+                cooldownq.push({
                     val: curr.val,
                     char: curr.char,
-                    nextTurn: ans + n
-                });
+                    availableAt: count + n
+                })
             }
         }
 
-        // Move tasks whose cooldown has expired
-        if (
-            cooldownQ.length &&
-            cooldownQ[0].nextTurn === ans
-        ) {
-            let task = cooldownQ.shift();
+        if (cooldownq.length && cooldownq[0].availableAt === count) {
+            let task = cooldownq.shift();
 
             if (task.val > 0) {
-                maxHeap.insert({
+                let obj = {
                     val: task.val,
-                    char: task.char
-                });
+                    char: task.char,
+                }
+                maxHeap.insert(obj);
             }
         }
-
     }
 
-    return ans
+    return count;
 };
