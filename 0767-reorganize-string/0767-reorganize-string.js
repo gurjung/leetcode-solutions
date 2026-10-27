@@ -89,46 +89,51 @@ class MaxHeapOwn {
     }
 }
 
+
 var reorganizeString = function (s) {
+    // freq counter
+    // {a: 2, b: 1}
+    // prev = a
+    // temp = "a"
+    // {b: 1}
+    // temp = "ab"
+    // check if prev > 0 then push {a: 1}
+    // prev = "b"
+    // {a: 1}
+    // temp = "aba"
+    let freq = {};
+
     let maxHeap = new MaxHeapOwn();
-    let map = {};
 
-    // create frequency map
     for (let i = 0; i < s.length; i++) {
-        let char = s[i];
-        if (map[char]) {
-            map[char] = map[char] + 1;
+        if (freq[s[i]]) {
+            freq[s[i]] = freq[s[i]] + 1
         } else {
-            map[char] = 1
+            freq[s[i]] = 1;
         }
     }
 
-    for (let key in map) {
+    for (let key in freq) {
         let obj = {
-            char: key,
-            val: map[key]
+            val: freq[key],
+            char: key
         }
-        maxHeap.insert(obj);
+        maxHeap.insert(obj)
     }
-
-    let result = [];
     let prev = null;
+    let ans = [];
+    // [a]
     while (maxHeap.size()) {
         let curr = maxHeap.extract();
-        let char = curr.char;
-        result.push(char);
+        ans.push(curr.char);
         curr.val--;
-
         if (prev && prev.val > 0) {
             maxHeap.insert(prev)
         }
-        prev = curr;
+        prev = curr
     }
 
-    if (result.length !== s.length) {
-        return ""
-    } else {
-        return result.join("");
-    }
+    if (ans.length !== s.length) return "";
+    return ans.join("");
 
 };
