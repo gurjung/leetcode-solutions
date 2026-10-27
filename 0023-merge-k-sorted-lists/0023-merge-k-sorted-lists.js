@@ -98,35 +98,40 @@ class MinHeapOwn {
 }
 
 var mergeKLists = function (lists) {
-    // store 1st col node in minHeap
     let minHeap = new MinHeapOwn();
+    // similar to merge k sorted arrays problem
+    // store 1st col values in minheap
 
     for (let node of lists) {
         if (node) {
-            minHeap.insert({
+            // node = [1,4,5]
+            // node.val -> 1 // 1st val only
+            let obj = {
                 val: node.val,
                 node: node
-            })
+            }
+            minHeap.insert(obj)
         }
     }
 
-    // take dummyNode
-    let dummy = new ListNode(0);
-    let dummyCpy = dummy;
+    let dummyNode = new ListNode(0);
+    let dummyNodeCpy = dummyNode;
 
-    while (minHeap.size() > 0) {
+    while (minHeap.size()) {
         let curr = minHeap.extract();
-
-        dummyCpy.next = curr.node;
-        dummyCpy = dummyCpy.next;
+        dummyNodeCpy.next = curr.node;
+        dummyNodeCpy = dummyNodeCpy.next
 
         if (curr.node.next) {
-            minHeap.insert({
-                val: curr.node.next.val,
-                node: curr.node.next
-            })
+            // curr.node.next = [4,5]
+            let obj = {
+                val: curr.node.next.val, // 4
+                node: curr.node.next // [4,5]
+            }
+            minHeap.insert(obj)
         }
+
     }
 
-    return dummy.next
+    return dummyNode.next
 };
