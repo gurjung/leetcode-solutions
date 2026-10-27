@@ -1002,4 +1002,8 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/gurjung/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
