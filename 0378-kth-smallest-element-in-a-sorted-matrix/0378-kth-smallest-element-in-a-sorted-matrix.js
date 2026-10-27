@@ -23,115 +23,125 @@ class MinHeapOwn {
 
     insert(val) {
         this.heap.push(val);
-        let lastIndex = this.heap.length - 1;
-        this.heapifyUp(lastIndex);
+
+        let lastIdx = this.heap.length - 1;
+
+        this.heapifyUp(lastIdx)
     }
 
     heapifyUp(i) {
         while (i > 0) {
             let p = this.getParentIndex(i);
+
             if (this.heap[p].val <= this.heap[i].val) {
                 break;
             } else {
                 // swap
-                [this.heap[p], this.heap[i]] = [this.heap[i], this.heap[p]];
+                [this.heap[p], this.heap[i]] = [this.heap[i], this.heap[p]]
                 i = p;
             }
+
         }
     }
 
     extract() {
-        if (this.heap.length < 1)
-            return null;
+        if (this.heap.length < 1) return null;
+
         let min = this.heap[0];
+
         let lastIdx = this.heap.length - 1;
-        // swap first with last element
-        // [a, b] = [b, a]
-        [this.heap[0], this.heap[lastIdx]] = [this.heap[lastIdx], this.heap[0]];
+
+        // swap lastIdx with min
+
+        [this.heap[lastIdx], this.heap[0]] = [this.heap[0], this.heap[lastIdx]]
 
         this.heap.pop();
         if (this.heap.length > 0) {
             this.heapifyDown(0);
         }
-        return min;
-    }
 
-    peek() {
-        if (this.heap.length) {
-            return this.heap[0];
-        } else {
-            return null;
-        }
+        return min;
+
     }
 
     heapifyDown(i) {
         let smallest = i;
-        let left = this.getLeftChildIndex(i);
-        let right = this.getRightChildIndex(i);
+
+        let left = this.getLeftChildIndex(smallest);
+        let right = this.getRightChildIndex(smallest);
+
         let n = this.heap.length;
 
-        // check smallest and left and find new Smallest
         if (left < n && this.heap[left].val < this.heap[smallest].val) {
-            smallest = left;
+            smallest = left
         }
 
         if (right < n && this.heap[right].val < this.heap[smallest].val) {
-            smallest = right;
+            smallest = right
         }
 
-        // [a, b] = [b, a]
         if (smallest !== i) {
-            [this.heap[smallest], this.heap[i]] = [this.heap[i], this.heap[smallest]];
-            this.heapifyDown(smallest);
+            [this.heap[smallest], this.heap[i]] = [this.heap[i], this.heap[smallest]]
+            this.heapifyDown(smallest)
         }
+    }
+
+    peek() {
+        return this.heap.length > 0 ? this.heap[0] : null;
     }
 
     size() {
-        return this.heap.length;
+        return this.heap.length
     }
+
 }
 
 var kthSmallest = function (matrix, k) {
-    let n = matrix.length;
-    let m = matrix[0].length;
-
+    // [[1,5,9],
+    //  [10,11,13],
+    //  [12,13,15]]
     let minHeap = new MinHeapOwn();
 
-    // 1  5   9
-    // 10 11 13
-    // 12 13 15
+    let m = matrix.length;
+    let n = matrix[0].length;
 
-    // act as pointer to keep track of column out of bound
-    let pArr = new Array(m).fill(0);
-
-    for (let i = 0; i < n; i++) {
-        let colVal = matrix[i][0]
-
-        minHeap.insert({
-            val: colVal,
+    // store 1st column in minHeap
+    for (let i = 0; i < m; i++) {
+        let val = matrix[i][0];
+        let obj = {
+            val: val,
             row: i
-        })
+        }
+        minHeap.insert(obj)
     }
 
-    for (let i = 0; i < k - 1; i++) {
-        let curr = minHeap.extract();
-        let val = curr.val;
-        let idx = curr.row;
-        pArr[idx]++;
+    let pArr = new Array(m).fill(0)
+    let count = 0;
 
-        if (pArr[idx] < m) {
-            let r = idx;
-            let c = pArr[idx];
-            let newVal = matrix[r][c]
+    while (minHeap.size()) {
+        let curr = minHeap.extract();
+        count++;
+
+        if(count === k) {
+            return curr.val
+        }
+
+        let row = curr.row;
+
+        pArr[row]++;
+
+        if (pArr[row] < n) {
+            let r = row;
+            let c = pArr[r];
             let obj = {
-                val: newVal,
+                val: matrix[r][c],
                 row: r
             }
             minHeap.insert(obj)
         }
+
     }
 
-    return minHeap.peek().val
-
+    return null
 
 };
