@@ -213,6 +213,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0207-course-schedule](https://github.com/gurjung/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/gurjung/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/gurjung/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/gurjung/leetcode-solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -318,6 +319,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0152-maximum-product-subarray](https://github.com/gurjung/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/gurjung/leetcode-solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0213-house-robber-ii) |
+| [0279-perfect-squares](https://github.com/gurjung/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/gurjung/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/gurjung/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
@@ -445,6 +447,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0204-count-primes](https://github.com/gurjung/leetcode-solutions/tree/master/0204-count-primes) |
 | [0224-basic-calculator](https://github.com/gurjung/leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0268-missing-number](https://github.com/gurjung/leetcode-solutions/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/gurjung/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0282-expression-add-operators](https://github.com/gurjung/leetcode-solutions/tree/master/0282-expression-add-operators) |
 | [0371-sum-of-two-integers](https://github.com/gurjung/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -803,6 +806,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Knapsack Problem
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/gurjung/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0494-target-sum) |
@@ -810,6 +814,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 ## Complete Knapsack
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/gurjung/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0518-coin-change-ii) |
 ## Dijkstra's Algorithm
