@@ -3,27 +3,26 @@
  * @return {number}
  */
 var rob = function (nums) {
-
-    // [1,2,3,1,4]
+    // if 1st house then can't last and vice -versa
     let n = nums.length;
+    if (n === 1) return nums[0];
+    // let p1 = p2 = 0;
+    function recur(start, end) {
+        let p1 = 0, p2 = 0;
+        for (let i = start; i < end; i++) {
+            // two choices we have
+            // take it (considering current home)
+            let take = nums[i] + p1;
+            // skip
+            let skip = p2;
 
-    if(n === 1) return nums[0]
-
-    function calculate(start, end) {
-        let p1 = 0;
-        let p2 = 0;
-
-        for (let i = start; i <= end; i++) {
-            let rob = nums[i] + p2;
-            let skip = p1;
-            let curr = Math.max(rob, skip);
-            p2 = p1;
-            p1 = curr;
+            let curr = Math.max(take, skip);
+            let temp = p2;
+            p2 = curr;
+            p1 = temp;
         }
-
-        return p1;
-
+        return p2
     }
 
-    return Math.max(calculate(0, n - 2), calculate(1, n - 1))
+    return Math.max(recur(0, n - 1), recur(1, n))
 };
