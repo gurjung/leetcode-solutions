@@ -488,6 +488,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0692-top-k-frequent-words](https://github.com/gurjung/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/gurjung/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0763-partition-labels](https://github.com/gurjung/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
 | [1021-remove-outermost-parentheses](https://github.com/gurjung/leetcode-solutions/tree/master/1021-remove-outermost-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/gurjung/leetcode-solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -507,6 +508,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0435-non-overlapping-intervals](https://github.com/gurjung/leetcode-solutions/tree/master/0435-non-overlapping-intervals) |
 | [0502-ipo](https://github.com/gurjung/leetcode-solutions/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/gurjung/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0763-partition-labels](https://github.com/gurjung/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/gurjung/leetcode-solutions/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -543,6 +545,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0692-top-k-frequent-words](https://github.com/gurjung/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/gurjung/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0763-partition-labels](https://github.com/gurjung/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/gurjung/leetcode-solutions/tree/master/0767-reorganize-string) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/gurjung/leetcode-solutions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -649,6 +652,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0234-palindrome-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0647-palindromic-substrings](https://github.com/gurjung/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gurjung/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0763-partition-labels](https://github.com/gurjung/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0876-middle-of-the-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [0986-interval-list-intersections](https://github.com/gurjung/leetcode-solutions/tree/master/0986-interval-list-intersections) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/gurjung/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
