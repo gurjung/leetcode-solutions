@@ -40,6 +40,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0090-subsets-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/gurjung/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0118-pascals-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0118-pascals-triangle) |
+| [0120-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0120-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/gurjung/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/gurjung/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/gurjung/leetcode-solutions/tree/master/0134-gas-station) |
@@ -316,6 +317,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0091-decode-ways](https://github.com/gurjung/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/gurjung/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0118-pascals-triangle) |
+| [0120-triangle](https://github.com/gurjung/leetcode-solutions/tree/master/0120-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/gurjung/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/gurjung/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/gurjung/leetcode-solutions/tree/master/0139-word-break) |
