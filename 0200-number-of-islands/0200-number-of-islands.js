@@ -5,10 +5,8 @@
 var numIslands = function (grid) {
     let m = grid.length;
     let n = grid[0].length;
-    let ans = 0;
+    // let q = [];
     let visitedArr = [];
-
-    // create 2d array
 
     for (let i = 0; i < m; i++) {
         visitedArr[i] = [];
@@ -27,12 +25,12 @@ var numIslands = function (grid) {
         return true;
     }
 
-    function recur(i, j) {
-        visitedArr[i][j] = true;
+    function recur(r, c) {
+        visitedArr[r][c] = true;
 
         for (let k = 0; k < 4; k++) {
-            let row = i + dx[k];
-            let col = j + dy[k];
+            let row = r + dx[k];
+            let col = c + dy[k];
 
             if (isValid(row, col) && !visitedArr[row][col] && grid[row][col] === "1") {
                 recur(row, col)
@@ -40,6 +38,7 @@ var numIslands = function (grid) {
         }
     }
 
+    let ans = 0;
     for (let i = 0; i < m; i++) {
         for (let j = 0; j < n; j++) {
             if (grid[i][j] === "1" && !visitedArr[i][j]) {
@@ -48,7 +47,5 @@ var numIslands = function (grid) {
             }
         }
     }
-
     return ans;
-
 };
