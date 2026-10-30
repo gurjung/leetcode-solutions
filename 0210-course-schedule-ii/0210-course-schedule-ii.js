@@ -3,7 +3,7 @@
  * @param {number[][]} prerequisites
  * @return {number[]}
  */
-var findOrder = function(numCourses, prerequisites) {
+var findOrder = function (numCourses, prerequisites) {
     // prerequisites[i] = [ai, bi] indicates that you must take course bi before ai
     // dependancy means topological sort
 
@@ -42,5 +42,9 @@ var findOrder = function(numCourses, prerequisites) {
         }
 
     }
-    return result
+    if (result.length === numCourses) {
+        return result;
+    } else {
+        return []
+    }
 };
