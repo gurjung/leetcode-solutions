@@ -5,15 +5,14 @@
  * @return {number}
  */
 var ladderLength = function (beginWord, endWord, wordList) {
+
     let wordSet = new Set(wordList);
 
-    if (!wordSet.has(endWord)) {
-        return 0
-    }
+    if (!wordSet.has(endWord)) return 0;
 
     let q = [];
 
-    q.push({ begin: beginWord, val: 1 });
+    q.push({ begin: beginWord, val: 1 })
 
     while (q.length) {
         let curr = q.shift();
@@ -27,21 +26,22 @@ var ladderLength = function (beginWord, endWord, wordList) {
             let charArr = begin.split("");
 
             for (let j = 97; j <= 122; j++) {
-                let ch = String.fromCharCode(j);
+                let char = String.fromCharCode(j);
 
-                if (charArr[i] === ch) continue;
-
-                charArr[i] = ch;
-
-                let newWord = charArr.join("")
-
-                if (wordSet.has(newWord)) {
-                    q.push({ begin: newWord, val: val + 1 });
-                    wordSet.delete(newWord)
+                if (char === charArr[i]) {
+                    continue;
+                }
+                let original = charArr;
+                charArr[i] = char;
+                let charStr = charArr.join("");
+                if (wordSet.has(charStr)) {
+                    q.push({ begin: charStr, val: val + 1 })
+                    wordSet.delete(charStr)
                 }
 
             }
         }
+
     }
 
     return 0;
