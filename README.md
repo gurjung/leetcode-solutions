@@ -177,6 +177,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/gurjung/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [0337-house-robber-iii](https://github.com/gurjung/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/gurjung/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/gurjung/leetcode-solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -220,6 +221,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0210-course-schedule-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/gurjung/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/gurjung/leetcode-solutions/tree/master/0279-perfect-squares) |
+| [0310-minimum-height-trees](https://github.com/gurjung/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/gurjung/leetcode-solutions/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/gurjung/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/gurjung/leetcode-solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -431,6 +433,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | [0133-clone-graph](https://github.com/gurjung/leetcode-solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/gurjung/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/gurjung/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [0547-number-of-provinces](https://github.com/gurjung/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/gurjung/leetcode-solutions/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/gurjung/leetcode-solutions/tree/master/0743-network-delay-time) |
@@ -575,6 +578,7 @@ Automatically synced LeetCode solutions for DSA practice and interview preparati
 | ------- |
 | [0207-course-schedule](https://github.com/gurjung/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/gurjung/leetcode-solutions/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/gurjung/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [0802-find-eventual-safe-states](https://github.com/gurjung/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/gurjung/leetcode-solutions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Minimum Spanning Tree
